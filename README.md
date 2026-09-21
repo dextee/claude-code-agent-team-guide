@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.svg" alt="Claude Code Model Guide 2026: Fable 5.1 plans and audits, Opus 5 builds, Sonnet 5 runs parallel workers, Haiku 4.5 explores" width="100%"></p>
+
 # Claude Code Model Guide 2026: Fable 5.1 vs Opus 5 vs Sonnet 5 vs Haiku 4.5 for Agent Teams
 
 > **Which Claude model should each agent use in Claude Code?** This is a practical, source-checked playbook for picking models, effort levels, and advisors across a team of Claude Code agents — plus copy-paste subagent files you can drop into any repo today.
@@ -6,6 +8,7 @@
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-v2.1.257%2B-orange)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+[![GitHub stars](https://img.shields.io/github/stars/dextee/claude-code-model-guide?style=social)](https://github.com/dextee/claude-code-model-guide/stargazers)
 
 **TL;DR** — Plan and audit with **Claude Fable 5.1**, build with **Claude Opus 5**, run routine and parallel work on **Claude Sonnet 5**, and send search/exploration to **Claude Haiku 4.5**. Tune **effort** before you switch models, and use the **advisor tool** so your builder can consult Fable only at decision points.
 
@@ -25,6 +28,7 @@
 - [Common mistakes](#common-mistakes)
 - [FAQ](#faq)
 - [Sources](#sources)
+- [About the author](#about-the-author)
 
 ---
 
@@ -89,7 +93,7 @@ This repo ships ready-to-use subagent definitions in [`.claude/agents/`](.claude
 **Per project** (shared with your team via git):
 
 ```bash
-git clone https://github.com/<you>/claude-code-model-guide.git
+git clone https://github.com/dextee/claude-code-model-guide.git
 mkdir -p your-project/.claude/agents
 cp claude-code-model-guide/.claude/agents/*.md your-project/.claude/agents/
 ```
@@ -310,9 +314,20 @@ All facts were checked against official documentation on **2026-09-22**. Models 
 
 ---
 
+## About the author
+
+Maintained by **[@dextee](https://github.com/dextee)**, who builds and governs production AI agent systems.
+
+Related work:
+
+- **[Singapore AI Governance Readiness Checklist](https://github.com/dextee/singapore-ai-governance-checklist)**: 24 evidence-oriented review prompts for taking an AI system or agent to production in Singapore, mapped to IMDA's Model AI Governance Framework for Agentic AI.
+- **[VYR](https://vyrwork.com/)**: governed AI automation resources.
+
+Follow [@dextee](https://github.com/dextee) for updates when new Claude models ship.
+
 ## Contributing
 
-Found a newer model, a price change, or a better workflow? PRs are welcome. Please link an official source for any factual change.
+Found a newer model, a price change, or a better workflow? PRs are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md). Please link an official source for any factual change.
 
 If this guide saved you tokens, **⭐ star the repo** so other Claude Code users can find it.
 

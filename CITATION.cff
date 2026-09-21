@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you reference this guide, please cite it as below."
+title: "Claude Code Model Guide 2026: Model Selection for Agent Teams"
+authors:
+  - alias: dextee
+repository-code: "https://github.com/dextee/claude-code-model-guide"
+license: MIT
+date-released: 2026-09-22
+keywords:
+  - claude-code
+  - ai-agents
+  - multi-agent
+  - llm
