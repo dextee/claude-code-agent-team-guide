@@ -1,0 +1,11 @@
+{
+  "model": "opus",
+  "effortLevel": "high",
+  "advisorModel": "fable",
+  "modelSettings": {
+    "claude-fable-5-1": { "effortLevel": "high" }
+  },
+  "env": {
+    "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet"
+  }
+}
