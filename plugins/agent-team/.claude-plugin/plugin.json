@@ -1,0 +1,14 @@
+{
+  "name": "agent-team",
+  "displayName": "Claude Code Agent Team",
+  "version": "1.0.0",
+  "description": "Five subagents, each matched to the right Claude model: architect (Fable), implementer (Opus), worker (Sonnet), explorer (Haiku), auditor (Fable).",
+  "author": {
+    "name": "Dexter Ng",
+    "url": "https://github.com/dextee"
+  },
+  "homepage": "https://github.com/dextee/claude-code-agent-team-guide",
+  "repository": "https://github.com/dextee/claude-code-agent-team-guide",
+  "license": "MIT",
+  "keywords": ["agents", "subagents", "agent-team", "model-routing", "fable", "opus", "sonnet", "haiku"]
+}

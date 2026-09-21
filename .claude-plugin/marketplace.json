@@ -1,0 +1,17 @@
+{
+  "name": "dextee",
+  "owner": {
+    "name": "Dexter Ng",
+    "url": "https://github.com/dextee"
+  },
+  "metadata": {
+    "description": "Claude Code agent team setups by Dexter Ng: subagents matched to the right model for each job."
+  },
+  "plugins": [
+    {
+      "name": "agent-team",
+      "source": "./plugins/agent-team",
+      "description": "Five subagents, each matched to the right Claude model: architect (Fable), implementer (Opus), worker (Sonnet), explorer (Haiku), auditor (Fable)."
+    }
+  ]
+}
