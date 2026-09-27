@@ -2,7 +2,7 @@
 
 # AI Receptionist
 
-![AI Receptionist: a customer-facing workflow illustration with the service status and human decision visible.](../../assets/ai-receptionist.png)
+![AI Receptionist: a customer-facing workflow illustration with the service status and human decision visible.](../../assets/ai-receptionist.jpg)
 
 ## When booking enquiries keep interrupting your front desk
 

@@ -4,7 +4,7 @@
 
 [Ask VYR to assess your numbers →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=roi_top)
 
-![Illustrative invoice scenario: 40 hours released each month, S$1,200 capacity value, 50% converted to avoidable paid cost, S$600 cash benefit less S$225 ongoing cost gives S$375 net. Full assumptions follow.](assets/roi-illustration.png)
+![Illustrative invoice scenario: 40 hours released each month, S$1,200 capacity value, 50% converted to avoidable paid cost, S$600 cash benefit less S$225 ongoing cost gives S$375 net. Full assumptions follow.](assets/roi-illustration.jpg)
 
 ## A 40-hour opportunity
 
@@ -16,7 +16,7 @@ At an assumed **S$30 per fully loaded hour**, that is **S$1,200 of monthly capac
 
 ## Three illustrative scenarios
 
-Each column is a separate hypothetical **single-workflow** project. Figures are SGD; review time already accounts for human oversight.
+Each column is a separate hypothetical **single-workflow** project. Figures are SGD; review time already accounts for human oversight. FTE means **full-time equivalent**, using an assumed 160 staff-hours per month.
 
 | Assumption or result | Invoice administration | Booking enquiries | Routine support |
 |---|---:|---:|---:|

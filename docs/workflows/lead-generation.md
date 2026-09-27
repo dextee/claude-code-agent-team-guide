@@ -2,7 +2,7 @@
 
 # Lead Generation
 
-![Lead Generation: a customer-facing workflow illustration with the service status and human decision visible.](../../assets/prospect-research.png)
+![Lead Generation: a customer-facing workflow illustration with the service status and human decision visible.](../../assets/prospect-research.jpg)
 
 Illustrated service flow; company names and cards in the artwork are fictional.
 

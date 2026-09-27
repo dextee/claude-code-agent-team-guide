@@ -1,4 +1,4 @@
-<p align="center"><a href="https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=hero"><img src="assets/vyr-customer-hero.png" alt="VYR Agent OS: more capacity, less repetitive work. AI workflows for enquiries, finance, sales and operations. Find your first workflow at vyrwork.com." width="100%"></a></p>
+<p align="center"><a href="https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=hero"><img src="assets/vyr-customer-hero.jpg" alt="VYR Agent OS: more capacity, less repetitive work. AI workflows for enquiries, finance, sales and operations. Find your first workflow at vyrwork.com." width="100%"></a></p>
 
 # AI workflows for the work your team keeps repeating
 
@@ -30,7 +30,7 @@ Whether this reduces employee headcount depends on whole-role responsibilities a
 | Booking enquiries | 80 | 0.50 FTE | S$950 |
 | Routine support | 160 | 1.00 FTE | S$2,050 |
 
-The examples subtract human review time and assumed running costs. FTE uses 160 hours/month and does not mean a complete role can be removed. [See every input, annual ROI, payback and the zero-payroll-savings case →](ROI.md)
+The examples subtract human review time and assumed running costs. FTE means **full-time equivalent**, using 160 hours/month; it does not mean a complete role can be removed. [See every input, annual ROI, payback and the zero-payroll-savings case →](ROI.md)
 
 **[Ask VYR to assess your workflow's business case →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_roi)**
 
@@ -38,9 +38,9 @@ The examples subtract human review time and assumed running costs. FTE uses 160 
 
 <table>
 <tr>
-<td width="33%"><a href="docs/workflows/ai-receptionist.md"><img src="assets/ai-receptionist.png" alt="AI Receptionist demo: an enquiry moves through knowledge and sample availability checks to a sample booking or staff handoff." width="100%"></a><br><strong>AI Receptionist</strong><br>Demo · sample data<br><a href="docs/workflows/ai-receptionist.md">Explore booking enquiries →</a></td>
-<td width="33%"><a href="docs/workflows/invoice-processing.md"><img src="assets/invoice-processing.png" alt="Invoice Processing blueprint: capture, compare invoice with PO and receipt, finance review, and approved accounting draft." width="100%"></a><br><strong>Invoice Processing</strong><br>Built for you · not deployed<br><a href="docs/workflows/invoice-processing.md">Explore invoice administration →</a></td>
-<td width="33%"><a href="docs/workflows/lead-generation.md"><img src="assets/prospect-research.png" alt="Live prospect research within VYR: target brief, public research, quality checks, sales review and a reviewed CSV. No outreach is sent." width="100%"></a><br><strong>Prospect Research</strong><br>Live · VYR's own operations<br><a href="docs/workflows/lead-generation.md">Explore sales research →</a></td>
+<td width="33%"><a href="docs/workflows/ai-receptionist.md"><img src="assets/ai-receptionist.jpg" alt="AI Receptionist demo: an enquiry moves through knowledge and sample availability checks to a sample booking or staff handoff." width="100%"></a><br><strong>AI Receptionist</strong><br>Demo · sample data<br><a href="docs/workflows/ai-receptionist.md">Explore booking enquiries →</a></td>
+<td width="33%"><a href="docs/workflows/invoice-processing.md"><img src="assets/invoice-processing.jpg" alt="Invoice Processing blueprint: capture, compare invoice with PO and receipt, finance review, and approved accounting draft." width="100%"></a><br><strong>Invoice Processing</strong><br>Built for you · not deployed<br><a href="docs/workflows/invoice-processing.md">Explore invoice administration →</a></td>
+<td width="33%"><a href="docs/workflows/lead-generation.md"><img src="assets/prospect-research.jpg" alt="Live prospect research within VYR: target brief, public research, quality checks, sales review and a reviewed CSV. No outreach is sent." width="100%"></a><br><strong>Prospect Research</strong><br>Live · VYR's own operations<br><a href="docs/workflows/lead-generation.md">Explore sales research →</a></td>
 </tr>
 </table>
 

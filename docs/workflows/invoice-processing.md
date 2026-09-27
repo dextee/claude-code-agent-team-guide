@@ -2,7 +2,7 @@
 
 # Invoice Processing
 
-![Invoice Processing: a customer-facing workflow illustration with the service status and human decision visible.](../../assets/invoice-processing.png)
+![Invoice Processing: a customer-facing workflow illustration with the service status and human decision visible.](../../assets/invoice-processing.jpg)
 
 ## When invoices arrive faster than finance can reconcile them
 
