@@ -61,6 +61,10 @@ Your service list, booking calendar, package register and staff exception rules.
 
 VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
 
+## Consider the business case
+
+Estimate the time this process consumes, the review that would remain, and whether freed capacity would avoid a paid cost. [See the ROI and staffing-capacity examples](../../ROI.md).
+
 ## Take the next step
 
 **[Discuss your booking workflow with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=beauty-and-wellness_bottom)**

@@ -2,6 +2,8 @@
 
 # AI Receptionist
 
+![AI Receptionist: a customer-facing workflow illustration with the service status and human decision visible.](../../assets/ai-receptionist.png)
+
 ## When booking enquiries keep interrupting your front desk
 
 For appointment-led businesses exploring a multilingual first point of contact. See how a caller can move from a question to a sample booking, with staff taking over exceptions.
@@ -60,6 +62,10 @@ This example is fictional; it is not a customer result or a promise of measured 
 Your enquiry types, opening hours, booking system, languages and staff handoff rules.
 
 VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
+
+## Consider the business case
+
+Estimate the time this process consumes, the review that would remain, and whether freed capacity would avoid a paid cost. [See the ROI and staffing-capacity examples](../../ROI.md).
 
 ## Take the next step
 

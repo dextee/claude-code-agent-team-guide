@@ -16,7 +16,7 @@ Turn approved content into a controlled release and observe its actual delivery.
 
 ## How the work moves
 
-Drafting and review prepare the release packet. A person approves the exact copy, image, accounts, labels and schedule. A separate publisher validates that binding; the observer only reads resulting telemetry.
+Specialists prepare the post and check the brand rules. A person approves its copy, image, accounts, labels and schedule. A separate publishing service checks that nothing has changed before releasing it. The command centre then reports what was delivered.
 
 ```mermaid
 flowchart LR
@@ -25,12 +25,12 @@ B["Channel writer"]
 C["Brand reviewer"]
 D["Publisher service"]
 E["Observer agent"]
-H{"Named-human manifest approval"}
+H{"Marketing owner approval"}
 O(["Approved release receipt and a separate read-only delivery report"])
 A -->|approved source| B
 B -->|copy and image| C
-C -->|exact release manifest| H
-H -->|bound approval| D
+C -->|post, accounts and timing| H
+H -->|approved version| D
 D -->|separate write| F["FeedHive"]
 F -->|read-only evidence| E
 E --> O
@@ -44,13 +44,13 @@ class O outcome
 
 This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
 
-**Your team stays in control:** Named-human approval binds the exact release manifest. Any changed field invalidates release.
+**Your team stays in control:** Named-human approval binds the post, accounts and timing. Any changed field invalidates release.
 
 **Scope boundary:** The command center itself cannot create, approve, edit, schedule or delete posts.
 
 ## A conversation starter
 
-Illustrative scenario: a reviewer approves Tuesday copy for one account. A later image swap makes the binding invalid, so the publisher holds. After a fresh approval, a release can proceed; the observer reports the returned delivery state without mutating it.
+Illustrative scenario: a reviewer approves a Tuesday post for one account. Someone then changes the image, so publication is held for a new review. After approval, the publishing service releases the post and the command centre reports its delivery status.
 
 This example is fictional; it is not a customer result or a promise of measured savings.
 
@@ -59,6 +59,10 @@ This example is fictional; it is not a customer result or a promise of measured 
 Your accounts, approval owner, content sources and current publishing tools.
 
 VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
+
+## Consider the business case
+
+Estimate the time this process consumes, the review that would remain, and whether freed capacity would avoid a paid cost. [See the ROI and staffing-capacity examples](../../ROI.md).
 
 ## Take the next step
 

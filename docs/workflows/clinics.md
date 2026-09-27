@@ -60,6 +60,10 @@ Your booking system, administrative requests, staff owners and sensitive excepti
 
 VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
 
+## Consider the business case
+
+Estimate the time this process consumes, the review that would remain, and whether freed capacity would avoid a paid cost. [See the ROI and staffing-capacity examples](../../ROI.md).
+
 ## Take the next step
 
 **[Discuss your clinic front desk with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=clinics_bottom)**

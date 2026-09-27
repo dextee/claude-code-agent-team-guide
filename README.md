@@ -1,4 +1,4 @@
-<p align="center"><a href="https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=hero"><img src="assets/vyr-agent-os.svg" alt="VYR Agent OS. Turn recurring work into a controlled workflow. Enquiry, specialist agents, your approval, verified outcome." width="100%"></a></p>
+<p align="center"><a href="https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=hero"><img src="assets/vyr-customer-hero.png" alt="VYR Agent OS: more capacity, less repetitive work. AI workflows for enquiries, finance, sales and operations. Find your first workflow at vyrwork.com." width="100%"></a></p>
 
 # AI workflows for the work your team keeps repeating
 
@@ -6,9 +6,43 @@
 
 ### Have a process in mind?
 
-**[Discuss your workflow with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_primary)** · [Explore the workflows](docs/workflows/README.md) · [View packages](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_pricing)
+**[Discuss your workflow with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_primary)** · [See the savings examples](ROI.md) · [Explore the workflows](docs/workflows/README.md)
 
 Tell us the process, the systems involved and what your team still needs to approve. The [VYR contact page](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_response) states a target reply within one Singapore business day.
+
+## Handle more work before adding more admin
+
+An AI workflow coordinates repeated tasks across the information and tools your team already uses. Specialist agents prepare the work, check the supporting information and pass exceptions to the right person.
+
+- **Reduce paid admin hours** where automation can remove work currently covered by overtime or contractors.
+- **Avoid a hire or backfill** when the released work is large enough and the remaining duties are covered.
+- **Give the same team more capacity** for customers, sales conversations and exceptions that need judgment.
+
+Whether this reduces employee headcount depends on whole-role responsibilities and service coverage. Time saved becomes payroll savings only when a paid cost is actually avoided.
+
+## What could the numbers look like?
+
+**Illustrative single-workflow scenarios, not client results.** Each assumes S$30 per staff-hour and 50% of released capacity becomes avoidable paid cost.
+
+| Example | Hours released / month | Equivalent task capacity | Net cash benefit / month from month 4 |
+|---|---:|---:|---:|
+| Invoice administration | 40 | 0.25 FTE | S$375 |
+| Booking enquiries | 80 | 0.50 FTE | S$950 |
+| Routine support | 160 | 1.00 FTE | S$2,050 |
+
+The examples subtract human review time and assumed running costs. FTE uses 160 hours/month and does not mean a complete role can be removed. [See every input, annual ROI, payback and the zero-payroll-savings case →](ROI.md)
+
+**[Ask VYR to assess your workflow's business case →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_roi)**
+
+## See how the work moves
+
+<table>
+<tr>
+<td width="33%"><a href="docs/workflows/ai-receptionist.md"><img src="assets/ai-receptionist.png" alt="AI Receptionist demo: an enquiry moves through knowledge and sample availability checks to a sample booking or staff handoff." width="100%"></a><br><strong>AI Receptionist</strong><br>Demo · sample data<br><a href="docs/workflows/ai-receptionist.md">Explore booking enquiries →</a></td>
+<td width="33%"><a href="docs/workflows/invoice-processing.md"><img src="assets/invoice-processing.png" alt="Invoice Processing blueprint: capture, compare invoice with PO and receipt, finance review, and approved accounting draft." width="100%"></a><br><strong>Invoice Processing</strong><br>Built for you · not deployed<br><a href="docs/workflows/invoice-processing.md">Explore invoice administration →</a></td>
+<td width="33%"><a href="docs/workflows/lead-generation.md"><img src="assets/prospect-research.png" alt="Live prospect research within VYR: target brief, public research, quality checks, sales review and a reviewed CSV. No outreach is sent." width="100%"></a><br><strong>Prospect Research</strong><br>Live · VYR's own operations<br><a href="docs/workflows/lead-generation.md">Explore sales research →</a></td>
+</tr>
+</table>
 
 ## Find the closest business problem
 

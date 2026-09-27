@@ -2,6 +2,10 @@
 
 # Lead Generation
 
+![Lead Generation: a customer-facing workflow illustration with the service status and human decision visible.](../../assets/prospect-research.png)
+
+Illustrated service flow; company names and cards in the artwork are fictional.
+
 ## When sales spends too much time assembling prospect lists
 
 For B2B teams with a clear target customer and an owner who reviews list quality. Review prospect records with business sources, duplicate checks and contact-check context.
@@ -58,6 +62,10 @@ This example is fictional; it is not a customer result or a promise of measured 
 Your target industries, geography, exclusions and definition of a useful prospect.
 
 VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
+
+## Consider the business case
+
+Estimate the time this process consumes, the review that would remain, and whether freed capacity would avoid a paid cost. [See the ROI and staffing-capacity examples](../../ROI.md).
 
 ## Take the next step
 

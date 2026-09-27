@@ -34,6 +34,8 @@ VYR reviews the fit, integration access, approval boundaries and success criteri
 
 ## What should you budget?
 
+First, [look at the ROI and savings scenarios](ROI.md). They separate time released, potential staffing capacity and the paid cost a business can actually avoid. Bring your own volume, handling time and remaining review work to the scoping conversation.
+
 Published Agent OS pricing starts at **S$2,000 for one workflow**. Agent Care includes the first three months, then starts at **S$150/month**. Model usage is billed separately by the provider. Additional scope, current package terms and suitability are confirmed in the proposal. [See current packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=buyers_guide_pricing).
 
 ## What stays under your control?

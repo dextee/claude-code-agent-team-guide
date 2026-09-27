@@ -2,6 +2,8 @@
 
 # Invoice Processing
 
+![Invoice Processing: a customer-facing workflow illustration with the service status and human decision visible.](../../assets/invoice-processing.png)
+
 ## When invoices arrive faster than finance can reconcile them
 
 For finance teams handling repeated invoice capture, matching and exception review. Give finance a source-backed exception packet before an approved accounting draft is prepared.
@@ -59,6 +61,10 @@ This example is fictional; it is not a customer result or a promise of measured 
 Your invoice sources, purchase-order records, receipt evidence and accounting system.
 
 VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
+
+## Consider the business case
+
+Estimate the time this process consumes, the review that would remain, and whether freed capacity would avoid a paid cost. [See the ROI and staffing-capacity examples](../../ROI.md).
 
 ## Take the next step
 
