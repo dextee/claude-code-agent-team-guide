@@ -141,11 +141,14 @@ cat <<EOF
 
 $(say "Done.")
 Next steps:
-  1. Start Claude Code. Check the agents are loaded with:  /agents
-  2. On plans where Fable bills to usage credits, run  /model fable  once, accept the
-     usage-credits prompt, then  /model opus  to switch back. Until you do, a saved
+  1. Use Claude Code 2.1.280 or later. Restart after updating; check: /agents
+     Select /model claude-opus-5-5 and /effort medium. Check active values,
+     especially if the installer preserved an older setting or override.
+  2. On plans where Fable bills to usage credits, select /model claude-fable-5-1,
+     accept the prompt, then /model claude-opus-5-5 to switch back. Until you do, a saved
      Fable advisor is not applied and Fable agents ask for consent when they run.
-  3. Try it:  "Use the architect agent to plan X, the implementer to build it,
+  3. The advisor is optional: /advisor off disables it. Check /advisor for status.
+  4. Try it:  "Use the architect agent to plan X, the implementer to build it,
                then the auditor to review the diff."
 
 Guide: https://github.com/$REPO

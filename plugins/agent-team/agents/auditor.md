@@ -2,7 +2,7 @@
 name: auditor
 description: Independent, fresh-context review of a diff, branch, or plan before merge. Use after implementation is done and before declaring a task complete. Read-only.
 tools: Read, Glob, Grep, Bash
-model: fable
+model: claude-fable-5-1
 effort: xhigh
 color: red
 ---

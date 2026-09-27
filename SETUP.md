@@ -1,4 +1,4 @@
-# Set up the Claude Code agent team (instructions for Claude)
+# Set up the Claude Code agent team — Opus 5.5 edition
 
 > **For humans:** on any new machine or server, open Claude Code and say:
 >
@@ -24,10 +24,11 @@ Run these and read the results:
 claude --version
 command -v curl python3
 ls ~/.claude/agents 2>/dev/null
-cat ~/.claude/settings.json 2>/dev/null
+# Inspect model, modelSettings, effortLevel, advisorModel and model-related
+# environment overrides locally. Do not print credentials or unrelated settings.
 ```
 
-- If Claude Code is older than **2.1.257**, tell the user that Fable 5.1 needs 2.1.257 or later, and suggest `claude update`. Continue with the setup either way.
+- Opus 5.5 requires **2.1.280+**. Update an older CLI with `claude update`, then exit and reopen it before testing the new model. Do not claim a working Opus 5.5 setup on an older CLI.
 - If `python3` is missing, the installer still installs the agents but prints the settings for you to merge by hand in step 3.
 - Note any existing settings. The installer keeps the user's own values unless they explicitly ask to overwrite them.
 
@@ -55,18 +56,18 @@ claude plugin install agent-team@dextee
 
 ```bash
 ls ~/.claude/agents          # or <project>/.claude/agents for option C
-cat ~/.claude/settings.json
+# Inspect relevant model/effort/advisor keys locally; keep unrelated values private.
 ```
 
-Confirm that all five agent files exist (`architect`, `implementer`, `worker`, `explorer`, `auditor`) and that the settings contain what the installer reported. If python3 was missing, merge the printed settings into `~/.claude/settings.json` yourself, keeping any keys the user already had.
+Inspect only the relevant keys from settings rather than printing unrelated content. Confirm all five agent files exist (`architect`, `implementer`, `worker`, `explorer`, `auditor`). The implementer must specify `claude-opus-5-5` and `effort: medium`. Check that settings contain what the installer reported. If Python was missing, merge the recommended keys while preserving existing choices. For an existing installation, follow [the upgrade checklist](docs/OPUS_5_5_UPGRADE.md).
 
 ## 4. Tell the user what's left
 
 Report what was installed and what was changed, including the paths of any backup files. Then pass on these notes:
 
 1. **Restart Claude Code**, or open `/agents`, so the new agents load.
-2. **Fable consent.** On plans where Fable bills to usage credits, the user must run `/model fable` once and accept the prompt before the Fable advisor works. Afterwards they switch back with `/model opus`. You can't accept this prompt for them.
-3. **Third-party providers (option D).** Aliases may resolve to older models there. To pin models, set `ANTHROPIC_DEFAULT_FABLE_MODEL`, `ANTHROPIC_DEFAULT_OPUS_MODEL`, `ANTHROPIC_DEFAULT_SONNET_MODEL` and `ANTHROPIC_DEFAULT_HAIKU_MODEL` to the provider's model IDs. Don't set `advisorModel`.
+2. **Fable consent.** Where required, the user selects `/model claude-fable-5-1` and accepts usage-credit billing before enabling the Fable advisor. They then select `/model claude-opus-5-5` and `/effort medium`. Do not accept billing consent for them. The advisor is optional; `/advisor off` disables it.
+3. **Third-party providers (option D).** The files contain exact Anthropic model IDs. Map them to provider deployment IDs in each agent definition and verify availability. Do not apply the direct-Anthropic settings preset or configure its advisor.
 4. **How to use it:** "Use the architect agent to plan X, the implementer to build it, then the auditor to review the diff."
 
 ## What gets installed
@@ -74,7 +75,7 @@ Report what was installed and what was changed, including the paths of any backu
 | Agent | Model | Job |
 |---|---|---|
 | `architect` | Fable 5.1 | Read-only planner for ambiguous or high-stakes work |
-| `implementer` | Opus 5 | Builds approved plans end to end, with tests |
+| `implementer` | Opus 5.5, medium effort | Builds approved plans end to end, with tests |
 | `worker` | Sonnet 5 | One well-scoped chunk of work, run several in parallel |
 | `explorer` | Haiku 4.5 | Fast, cheap, read-only codebase search |
 | `auditor` | Fable 5.1 | Independent, evidence-only review before merge |
@@ -83,10 +84,13 @@ Recommended settings, merged without overwriting existing values:
 
 ```json
 {
-  "model": "opus",
-  "effortLevel": "high",
-  "advisorModel": "fable",
-  "env": { "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet" }
+  "model": "claude-opus-5-5",
+  "modelSettings": {
+    "claude-opus-5-5": { "effortLevel": "medium" },
+    "claude-fable-5-1": { "effortLevel": "high" }
+  },
+  "advisorModel": "claude-fable-5-1",
+  "env": { "CLAUDE_CODE_SUBAGENT_MODEL": "claude-sonnet-5" }
 }
 ```
 
@@ -94,6 +98,6 @@ Recommended settings, merged without overwriting existing values:
 
 ```bash
 rm ~/.claude/agents/{architect,implementer,worker,explorer,auditor}.md
-# then remove model / effortLevel / advisorModel / CLAUDE_CODE_SUBAGENT_MODEL
-# from ~/.claude/settings.json, or restore the settings.json.bak-* backup
+# Restore only the model/advisor/effort keys this install added or changed,
+# using the backup as a reference. Keep unrelated settings and newer edits.
 ```

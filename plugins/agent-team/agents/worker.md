@@ -1,7 +1,7 @@
 ---
 name: worker
 description: Executes one well-specified, self-contained chunk of work, such as a single module change, a test file, or a mechanical migration. Use several in parallel for large refactors split by the architect.
-model: sonnet
+model: claude-sonnet-5
 effort: medium
 color: green
 ---

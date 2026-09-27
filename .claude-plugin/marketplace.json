@@ -11,7 +11,7 @@
     {
       "name": "agent-team",
       "source": "./plugins/agent-team",
-      "description": "Five subagents, each matched to the right Claude model: architect (Fable), implementer (Opus), worker (Sonnet), explorer (Haiku), auditor (Fable)."
+      "description": "Opus 5.5 edition: Fable 5.1 plans and audits, Opus 5.5 builds at medium effort, Sonnet 5 works, Haiku 4.5 explores."
     }
   ]
 }

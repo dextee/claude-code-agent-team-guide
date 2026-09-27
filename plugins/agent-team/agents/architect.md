@@ -2,7 +2,7 @@
 name: architect
 description: Plans ambiguous, high-stakes, or multi-file work before any code is written. Use for architecture decisions, feature design, and breaking large tasks into self-contained chunks. Read-only.
 tools: Read, Glob, Grep, Bash, WebFetch, WebSearch
-model: fable
+model: claude-fable-5-1
 effort: high
 color: purple
 ---
