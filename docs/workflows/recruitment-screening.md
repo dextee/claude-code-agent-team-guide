@@ -2,71 +2,74 @@
 
 # Recruitment Screening
 
-## When application review is hard to keep consistent
+## Help recruiters find the relevant facts in every application
 
-For recruiters who need a reviewable evidence summary before making decisions. Compare submitted evidence with written criteria and coordinate only approved next steps.
+A proposed service that organises applicant information against your written job requirements and prepares it for a recruiter’s review.
 
-**[Discuss recruitment administration with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=recruitment-screening_top)**
+**The business benefit:** Aim to reduce the time spent finding and reformatting application details so recruiters can focus on the hiring decision.
 
-**Status: BUILT FOR YOU.** Build-to-order evidence triage; recruiters own progression, interview and rejection decisions. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/recruitment-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=recruitment-screening_source).
+**Worth discussing if...** your team reviews applications repeatedly and needs a consistent way to see what candidates have actually supplied.
 
-## What the workflow would help you achieve
+**[Discuss simpler application review →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=recruitment-screening_top)** · [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Recruitment%20Screening%20example%20on%20GitHub.%20My%20business%3A%20__.%20Tasks%20per%20month%3A%20__.%20Software%20we%20use%3A%20__.%20I%20would%20like%20to%20discuss%20whether%20this%20could%20save%20us%20time%20or%20money.)
 
-Prepare a transparent application review and coordinate recruiter-approved interviews.
+**Status: BUILT FOR YOU.** Custom application evidence review; recruiters own progression, interview and rejection decisions. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/recruitment-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=recruitment-screening_source).
 
-## How the work moves
+## What your team would get
 
-Evidence mapping preserves what the applicant actually provided. Triage describes gaps rather than inventing qualifications. The recruiter decides; scheduling receives only approved next steps.
+An application summary with supporting evidence, missing information and the recruiter’s approved next step.
+
+## How the assistants work together
+
+AI agents are software assistants with different jobs. One assistant reads the submitted material. Another matches it to the written requirements and a checker marks missing or unclear evidence. The recruiter decides what happens next; a scheduling assistant receives only approved interview requests.
 
 ```mermaid
-flowchart LR
-A["Intake agent"]
-B["Evidence agent"]
-C["Triage agent"]
-D["Review coordinator"]
-E["Scheduling agent"]
-H{"Recruiter decision"}
-O(["Reviewable evidence map and a human-owned next step"])
-A -->|permitted evidence| B
-B -->|criterion map| C
-C -->|uncertainty flags| D
-D --> H
-H -->|explicit interview approval| E
-E --> O
-classDef agent fill:#f6f0e6,stroke:#9f7557,color:#222222
+flowchart TD
+A["Read submitted application materials"]
+B["Match evidence to written job requirements"]
+C["Flag missing or unclear information"]
+H{"Recruiter makes every progression decision"}
+D["Coordinate an approved interview"]
+O(["Reviewed application and a human-owned next step"])
+A --> B
+B --> C
+C --> H
+H -->|interview approved| D
+D --> O
+H -->|other recruiter decision| O
+classDef assistant fill:#f6f0e6,stroke:#9f7557,color:#222222
 classDef human fill:#ffe8b6,stroke:#b57821,color:#222222
 classDef outcome fill:#e3eee6,stroke:#4e775c,color:#222222
-class A,B,C,D,E agent
+class A,B,C,D assistant
 class H human
 class O outcome
 ```
 
-This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
+This diagram explains the service in simple steps; it is not a screenshot or an exact system design.
 
 **Your team stays in control:** A recruiter or hiring manager owns every shortlist, interview, rejection and override.
 
-**Scope boundary:** Do not infer protected characteristics or make autonomous employment decisions.
+**What to know:** The service would not infer protected characteristics or make employment decisions on its own.
 
-## A conversation starter
+**[Explore clearer candidate summaries for recruiters →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=recruitment-screening_flow)**
 
-Illustrative scenario: an applicant demonstrates the core skill but lists no relevant certification. The evidence map labels that criterion 'not supplied'. The recruiter decides whether to request clarification or approve an interview.
+## Picture it in your business
 
-This example is fictional; it is not a customer result or a promise of measured savings.
+Illustrative scenario: An applicant shows the required skill but has not supplied a relevant certificate. The summary marks the certificate as “not supplied”. The recruiter decides whether to ask for clarification or approve an interview.
 
-## What VYR would scope with you
+This example is fictional, not a client result or a measured saving.
 
-Your role criteria, submitted materials, applicant system and recruiter decision process.
+## What we would discuss
 
-VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
+Your written job requirements, application materials, recruitment software and recruiter approval process.
 
-## Consider the business case
+You do not need a technical brief. Describe the task in your own words; VYR assesses the software connections, work involved and decisions that stay with your team before confirming a written scope and price.
 
-Estimate the time this process consumes, the review that would remain, and whether freed capacity would avoid a paid cost. [See the ROI and staffing-capacity examples](../../ROI.md).
+## Could it be worth the investment?
 
-## Take the next step
+Start with how often this task happens and how long it takes today. Subtract the checking your team still needs to do. Time saved may reduce paid overtime or avoid a future hire; it becomes a cash saving only when a paid cost is actually avoided. [See the worked savings and payback examples](../../ROI.md).
 
-**[Discuss recruitment administration with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=recruitment-screening_bottom)**
+**[Talk through your recruitment administration →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=recruitment-screening_bottom)** · [Send your brief on WhatsApp](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Recruitment%20Screening%20example%20on%20GitHub.%20My%20business%3A%20__.%20Tasks%20per%20month%3A%20__.%20Software%20we%20use%3A%20__.%20I%20would%20like%20to%20discuss%20whether%20this%20could%20save%20us%20time%20or%20money.)
 
-Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Recruitment%20Screening%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
+The WhatsApp draft asks for your business, approximate tasks per month and software. Rough figures are enough to start a conversation.
 
-[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=recruitment-screening_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=recruitment-screening_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md) · [Meet Dexter Ng](../../MEET_DEXTER.md)

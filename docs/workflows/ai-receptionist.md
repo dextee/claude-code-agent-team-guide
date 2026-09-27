@@ -2,75 +2,79 @@
 
 # AI Receptionist
 
-![AI Receptionist: a customer-facing workflow illustration with the service status and human decision visible.](../../assets/ai-receptionist.jpg)
+## Your front desk should not have to repeat the same answers all day
 
-## When booking enquiries keep interrupting your front desk
+See a multilingual voice demo answer business questions, check a sample calendar and guide a caller through a sample booking. Staff take over requests that need a person.
 
-For appointment-led businesses exploring a multilingual first point of contact. See how a caller can move from a question to a sample booking, with staff taking over exceptions.
+**The business benefit:** Explore how fewer routine interruptions could give your team more time for the customers already in front of them.
 
-**[Ask for a receptionist demonstration with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=ai-receptionist_top)**
+**Worth discussing if...** calls regularly interrupt appointments, or staff spend time repeating opening hours, service details and booking options.
+
+**[Ask for a receptionist demo →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=ai-receptionist_top)** · [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20AI%20Receptionist%20example%20on%20GitHub.%20My%20business%3A%20__.%20Tasks%20per%20month%3A%20__.%20Software%20we%20use%3A%20__.%20I%20would%20like%20to%20discuss%20whether%20this%20could%20save%20us%20time%20or%20money.)
 
 **Status: DEMO.** Working voice software using sample business data; no live booking connection. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/spa-demo?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=ai-receptionist_source).
 
-## What the workflow would help you achieve
+![AI Receptionist: a customer-facing workflow illustration with the service status and human decision visible.](../../assets/ai-receptionist.jpg)
 
-Turn an inbound call into a correct sample booking or a useful staff handoff.
+## What your team would get
 
-## How the work moves
+A clear answer, a confirmed sample booking or a handover that tells staff what the caller needs.
 
-The concierge dispatches a factual enquiry to knowledge and a booking enquiry to availability. It joins their findings before asking the caller to choose. Sensitive or unsupported requests branch directly to a person.
+## How the assistants work together
+
+AI agents are software assistants with different jobs. One assistant understands the question. Another checks the business information; a calendar assistant checks sample availability when needed. The booking assistant reads the details back before the caller confirms. Questions that need judgment go to staff.
 
 ```mermaid
-flowchart LR
-A["Concierge agent"]
-B["Knowledge agent"]
-C["Availability agent"]
-D["Booking agent"]
-E["Handoff agent"]
-H{"Staff handoff"}
-O(["Sample booking plus read-back, or a staff-ready handoff"])
-A -->|factual question| B
+flowchart TD
+A["Understand the caller's question"]
+B["Check approved business information"]
+C["Check the sample calendar"]
+D["Read back the booking details"]
+H{"Staff take over"}
+O(["Caller gets an answer"])
+P(["Sample booking recorded"])
+A -->|business question| B
+B -->|answer found| O
 A -->|booking request| C
-B -->|supported answer| D
-C -->|sample options| D
-D -->|caller confirms| O
-A -->|unsupported or sensitive| E
-D -->|exception| E
-E --> H
-classDef agent fill:#f6f0e6,stroke:#9f7557,color:#222222
+C -->|sample times available| D
+D -->|caller confirms| P
+A -->|sensitive request| H
+B -->|answer not available| H
+D -->|needs an exception| H
+classDef assistant fill:#f6f0e6,stroke:#9f7557,color:#222222
 classDef human fill:#ffe8b6,stroke:#b57821,color:#222222
 classDef outcome fill:#e3eee6,stroke:#4e775c,color:#222222
-class A,B,C,D,E agent
+class A,B,C,D assistant
 class H human
-class O outcome
+class O,P outcome
 ```
 
-This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
+This diagram explains the service in simple steps; it is not a screenshot or an exact system design.
 
-**Your team stays in control:** Staff own sensitive requests, policy exceptions and unsupported questions.
+**Your team stays in control:** Staff handle sensitive requests, policy exceptions and questions the assistant cannot answer.
 
-**Scope boundary:** Every booking is a simulation. Do not represent a sample slot as a real appointment.
+**What to know:** This demo uses sample information and calendars. Every booking is a simulation, with no live client booking connection.
 
-## A conversation starter
+**[Discuss the calls your team wants help with →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=ai-receptionist_flow)**
 
-Illustrative scenario: a caller requests a 60-minute appointment on Saturday. Availability returns 14:00 and 16:00 from the demo calendar. The caller chooses 16:00; the booking agent repeats the date and time and records a sample booking. A refund question is transferred with its context.
+## Picture it in your business
 
-This example is fictional; it is not a customer result or a promise of measured savings.
+Illustrative scenario: A caller asks when you open, then requests a Saturday appointment. The information assistant answers the first question; the calendar assistant offers 14:00 and 16:00 from the sample calendar. The caller chooses 16:00 and hears the details read back. A refund question goes to staff with the conversation attached.
 
-## What VYR would scope with you
+This example is fictional, not a client result or a measured saving.
 
-Your enquiry types, opening hours, booking system, languages and staff handoff rules.
+## What we would discuss
 
-VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
+Your most common questions, opening hours, booking software, languages and the requests staff must handle.
 
-## Consider the business case
+You do not need a technical brief. Describe the task in your own words; VYR assesses the software connections, work involved and decisions that stay with your team before confirming a written scope and price.
 
-Estimate the time this process consumes, the review that would remain, and whether freed capacity would avoid a paid cost. [See the ROI and staffing-capacity examples](../../ROI.md).
+## Could it be worth the investment?
 
-## Take the next step
+Start with how often this task happens and how long it takes today. Subtract the checking your team still needs to do. Time saved may reduce paid overtime or avoid a future hire; it becomes a cash saving only when a paid cost is actually avoided. [See the worked savings and payback examples](../../ROI.md).
 
-**[Ask for a receptionist demonstration with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=ai-receptionist_bottom)**
+**[Explore a receptionist for your business →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=ai-receptionist_bottom)** · [Send your brief on WhatsApp](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20AI%20Receptionist%20example%20on%20GitHub.%20My%20business%3A%20__.%20Tasks%20per%20month%3A%20__.%20Software%20we%20use%3A%20__.%20I%20would%20like%20to%20discuss%20whether%20this%20could%20save%20us%20time%20or%20money.)
 
-Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20AI%20Receptionist%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
+The WhatsApp draft asks for your business, approximate tasks per month and software. Rough figures are enough to start a conversation.
 
-[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=ai-receptionist_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=ai-receptionist_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md) · [Meet Dexter Ng](../../MEET_DEXTER.md)

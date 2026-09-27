@@ -1,5 +1,13 @@
 # Showcase updates
 
+## 28 September 2026 — clearer buying journey
+
+- Explain AI assistants, benefits and all 14 workflows in everyday language.
+- Add four visual explainers and show detailed artwork at readable widths.
+- Add a sourced Dexter Ng background page and LinkedIn links.
+- Place relevant enquiry links throughout the buying journey, with prefilled WhatsApp briefs.
+- Explain savings in working days, add buying questions and correct the receptionist's separate answer path.
+
 ## 27 September 2026 — VYR service showcase
 
 - Reposition the repository around business problems, workflow examples and VYR scoping conversations.

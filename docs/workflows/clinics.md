@@ -2,72 +2,74 @@
 
 # Clinic Front Desk
 
-## When appointment administration takes staff away from patients
+## Give your front desk more time for patients
 
-For clinics exploring help with booking and reminders while keeping clinical matters with staff. Organise administrative requests, availability and follow-up around the clinic's approval rules.
+A proposed assistant for routine appointment questions, changes and reminders. Clinical questions stay with your clinic staff.
 
-**[Discuss your clinic front desk with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=clinics_top)**
+**The business benefit:** Explore how reducing repeated booking administration could free staff to help patients who need personal attention.
+
+**Worth discussing if...** appointment changes and routine booking questions take up a recurring part of your front desk workload.
+
+**[Discuss help for your clinic front desk →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=clinics_top)** · [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Clinic%20Front%20Desk%20example%20on%20GitHub.%20My%20business%3A%20__.%20Tasks%20per%20month%3A%20__.%20Software%20we%20use%3A%20__.%20I%20would%20like%20to%20discuss%20whether%20this%20could%20save%20us%20time%20or%20money.)
 
 **Status: BUILT FOR YOU.** Build-to-order administrative workflow; no deployed clinic result is claimed. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/clinic-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=clinics_source).
 
-## What the workflow would help you achieve
+## What your team would get
 
-Resolve appointment administration while keeping clinical questions with clinic staff.
+A clear appointment record or a handover to the right staff member, with the patient’s request attached.
 
-## How the work moves
+## How the assistants work together
 
-Intake routes administrative requests to schedule. Confirmation returns details for acceptance; exception checks can interrupt the path at any point. Record consumes only the permitted administrative outcome.
+AI agents are software assistants with different jobs. One assistant identifies the administrative request. A calendar assistant finds suitable times, and a confirmation assistant checks the patient’s choice before recording an allowed change. Clinical or sensitive questions go directly to staff.
 
 ```mermaid
-flowchart LR
-A["Intake agent"]
-B["Schedule agent"]
-C["Confirmation agent"]
-D["Exception agent"]
-E["Record agent"]
-H{"Authorised clinic staff"}
-O(["Correct administrative record or a contextual staff handoff"])
-A -->|administrative intent| B
-B -->|valid slots| C
-C -->|accepted permitted outcome| E
-E --> O
-A -->|clinical or sensitive| D
-C -->|exception| D
-D --> H
-classDef agent fill:#f6f0e6,stroke:#9f7557,color:#222222
+flowchart TD
+A["Understand the appointment request"]
+B["Check available times"]
+C["Confirm the patient's choice"]
+D["Record the allowed booking change"]
+H{"Clinic staff take over"}
+O(["Appointment details recorded"])
+A -->|routine booking question| B
+B --> C
+C -->|details confirmed| D
+D --> O
+A -->|clinical or sensitive question| H
+C -->|needs a staff decision| H
+classDef assistant fill:#f6f0e6,stroke:#9f7557,color:#222222
 classDef human fill:#ffe8b6,stroke:#b57821,color:#222222
 classDef outcome fill:#e3eee6,stroke:#4e775c,color:#222222
-class A,B,C,D,E agent
+class A,B,C,D assistant
 class H human
 class O outcome
 ```
 
-This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
+This diagram explains the service in simple steps; it is not a screenshot or an exact system design.
 
-**Your team stays in control:** Clinic staff own clinical judgment, identity decisions, sensitive records and exceptional release.
+**Your team stays in control:** Clinic staff make clinical decisions, resolve identity questions and decide how sensitive records or exceptional requests are handled.
 
-**Scope boundary:** No diagnosis, symptom triage or clinical advice. Booking-system compatibility requires assessment.
+**What to know:** No diagnosis, symptom assessment or clinical advice. VYR must assess compatibility with your booking system.
 
-## A conversation starter
+**[Explore the booking tasks you could simplify →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=clinics_flow)**
 
-Illustrative scenario: a patient asks to move an appointment to Friday. A matching slot is proposed. When the patient also asks whether new symptoms require treatment, the agent passes that question to staff instead of interpreting it.
+## Picture it in your business
 
-This example is fictional; it is not a customer result or a promise of measured savings.
+Illustrative scenario: A patient asks to move an appointment to Friday. A suitable time is proposed. When the patient also asks whether new symptoms need treatment, that question goes to clinic staff without the assistant interpreting the symptoms.
 
-## What VYR would scope with you
+This example is fictional, not a client result or a measured saving.
 
-Your booking system, administrative requests, staff owners and sensitive exceptions.
+## What we would discuss
 
-VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
+Your booking software, routine appointment requests, staff responsibilities and sensitive situations.
 
-## Consider the business case
+You do not need a technical brief. Describe the task in your own words; VYR assesses the software connections, work involved and decisions that stay with your team before confirming a written scope and price.
 
-Estimate the time this process consumes, the review that would remain, and whether freed capacity would avoid a paid cost. [See the ROI and staffing-capacity examples](../../ROI.md).
+## Could it be worth the investment?
 
-## Take the next step
+Start with how often this task happens and how long it takes today. Subtract the checking your team still needs to do. Time saved may reduce paid overtime or avoid a future hire; it becomes a cash saving only when a paid cost is actually avoided. [See the worked savings and payback examples](../../ROI.md).
 
-**[Discuss your clinic front desk with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=clinics_bottom)**
+**[Talk through your clinic’s appointment process →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=clinics_bottom)** · [Send your brief on WhatsApp](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Clinic%20Front%20Desk%20example%20on%20GitHub.%20My%20business%3A%20__.%20Tasks%20per%20month%3A%20__.%20Software%20we%20use%3A%20__.%20I%20would%20like%20to%20discuss%20whether%20this%20could%20save%20us%20time%20or%20money.)
 
-Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Clinic%20Front%20Desk%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
+The WhatsApp draft asks for your business, approximate tasks per month and software. Rough figures are enough to start a conversation.
 
-[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=clinics_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=clinics_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md) · [Meet Dexter Ng](../../MEET_DEXTER.md)

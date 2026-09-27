@@ -6,13 +6,15 @@
 
 ![Illustrative invoice scenario: 40 hours released each month, S$1,200 capacity value, 50% converted to avoidable paid cost, S$600 cash benefit less S$225 ongoing cost gives S$375 net. Full assumptions follow.](assets/roi-illustration.jpg)
 
-## A 40-hour opportunity
+## What could five working days a month be worth?
 
-Imagine **600 invoices per month**, each taking **6 minutes** of manual work. That is **60 staff-hours**. If an implemented workflow reduces the remaining review and exception work to **20 hours**, it releases **40 hours per month**.
+Imagine **600 invoices per month**, each taking **6 minutes** of manual work. That is **60 staff-hours**. If an implemented workflow reduces the remaining review and exception work to **20 hours**, it releases **40 hours per month**—equivalent to **five 8-hour working days**.
 
 At an assumed **S$30 per fully loaded hour**, that is **S$1,200 of monthly capacity value**. If half becomes a real reduction in paid labour or an otherwise-needed hire, the cash benefit is **S$600/month**. After **S$225/month** in assumed ongoing costs, the steady-state net cash saving is **S$375/month**.
 
 **These are hypothetical inputs and calculations, not measured VYR results or a savings guarantee.** The amount of time that can actually be removed must be tested on your process.
+
+**[How would this look for my business? →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=roi_example)**
 
 ## Three illustrative scenarios
 
@@ -25,6 +27,7 @@ Each column is a separate hypothetical **single-workflow** project. Figures are 
 | Baseline staff-hours per month | 60 | 100 | 200 |
 | Remaining review / exception hours — assumed | 20 | 20 | 40 |
 | **Hours released per month** | **40** | **80** | **160** |
+| **Equivalent 8-hour working days** | **5 days** | **10 days** | **20 days** |
 | **Equivalent capacity at 160 hours/FTE** | **0.25 FTE** | **0.50 FTE** | **1.00 FTE** |
 | Capacity value at S$30/hour — assumed rate | S$1,200 | S$2,400 | S$4,800 |
 | Portion converted to avoidable cash cost — assumed | 50% | 50% | 50% |
@@ -37,6 +40,10 @@ Each column is a separate hypothetical **single-workflow** project. Figures are 
 | Year-one gross cash benefit | S$7,200 | S$14,400 | S$28,800 |
 | **Year-one net cash benefit** | **S$2,950** | **S$9,850** | **S$23,050** |
 | **Year-one cash ROI** | **69%** | **216%** | **401%** |
+
+**Payback** means the estimated time to recover the setup cost. **ROI**, or return on investment, compares the year-one net cash benefit with the year-one total cost. A positive example does not guarantee the same outcome for your business.
+
+**[Discuss the costs and savings for our task →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=roi_comparison)**
 
 **Pricing basis:** the setup and S$150/month Agent Care assumptions use VYR's published starting price, with three care months included. Estimated model usage is S$75 / S$100 / S$200 per month respectively; these are assumptions, not provider quotes. Actual scope, usage, software licences, data preparation, transition costs and additional support can change the result. [Current VYR pricing](https://vyrwork.com/pricing)
 
@@ -77,6 +84,8 @@ At 50% cash realisation and S$30/hour, the invoice scenario needs **15 hours rel
 ## Bring your own baseline
 
 For the first conversation, bring approximate volume, current handling time, the review that must remain, your actual labour cost, and whether the time would reduce paid cost or create capacity. VYR can scope the workflow and agree how to test those assumptions.
+
+An estimate is enough to start: “We handle ___ each month, taking around ___ minutes each. The part we want help with is ___.”
 
 **[Discuss the potential saving in your workflow →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=roi_bottom)**
 

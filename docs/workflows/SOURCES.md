@@ -8,7 +8,7 @@ This showcase follows [VYR Agent OS](https://vyrwork.com/agent-os). Public servi
 |---|---|---|
 | AI Receptionist | [View on VYR](https://vyrwork.com/agent-os/spa-demo) | DEMO |
 | Content Operations | [View on VYR](https://vyrwork.com/agent-os/seo-flow) | LIVE |
-| Lead Generation | [View on VYR](https://vyrwork.com/agent-os/leadgen-flow) | LIVE |
+| Prospect Research (official page: Lead Generation) | [View on VYR](https://vyrwork.com/agent-os/leadgen-flow) | LIVE |
 | Social Command Center | [View on VYR](https://vyrwork.com/agent-os/social-media-flow) | LIVE |
 | Clinic Front Desk | [View on VYR](https://vyrwork.com/agent-os/clinic-flow) | BUILT FOR YOU |
 | Invoice Processing | [View on VYR](https://vyrwork.com/agent-os/invoice-flow) | BUILT FOR YOU |
@@ -26,3 +26,9 @@ Content Operations is live with new generation currently paused behind its revie
 Diagrams simplify the work for a business discussion. They do not expose an exact runtime architecture. Scenarios are fictional and do not claim measured revenue, time savings or customer results. VYR's proposed shared-memory layer is build-to-order, not a connected feature of the three live workflows.
 
 [Current pricing](https://vyrwork.com/pricing) · [Delivery process](https://vyrwork.com/how-it-works) · [Contact VYR](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=source_register)
+
+## Dexter Ng's professional background
+
+The VYR CTO role and Singapore AI-automation positioning were read from [Dexter's live LinkedIn profile](https://www.linkedin.com/in/dexterng/) on **28 September 2026**. Historical career roles in [Meet Dexter](../../MEET_DEXTER.md) are summarised from his supplied LinkedIn export and identified as self-described professional background. They are not VYR customer references, endorsements or measured AI results. The private export is not republished.
+
+Additional public career records checked on 28 September 2026: [HITBSecConf2023 organiser speaker page](https://conference.hitb.org/hitbsecconf2023hkt/speaker/dexter-ng/), [BlackStorm's 2020 webinar recap](https://blackstormco.asia/data-protection-officer-requirement-what-you-need-to-know/), and [historical Forbes Business Council profile](https://councils.forbes.com/profile/Dexter-Ng-Co-Founder-CTO-Privacy-Ninja-Pte-Ltd/0aff50da-03ba-4e80-9167-ebf33baef9ad). The Forbes profile marks membership as inactive; no current membership or organisational endorsement is claimed.

@@ -2,75 +2,79 @@
 
 # HR Operations
 
-## When onboarding depends on chasing several people
+## Know what is ready before a new employee starts
 
-For HR teams coordinating documents, equipment, access and manager tasks. Keep outstanding work and responsible owners visible until completion is confirmed.
+A proposed onboarding service that keeps documents, equipment, system access and manager tasks in one clear checklist.
 
-**[Discuss your onboarding process with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=hr-operations_top)**
+**The business benefit:** Aim to reduce HR’s time spent chasing updates and make unfinished tasks visible before someone’s first day.
 
-**Status: BUILT FOR YOU.** Build-to-order onboarding and policy routing; Talenox or Payboy integration is scoped and tested. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/hr-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=hr-operations_source).
+**Worth discussing if...** each new starter involves several people and HR has to repeatedly ask what has been completed.
 
-## What the workflow would help you achieve
+**[Discuss a clearer onboarding checklist →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=hr-operations_top)** · [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20HR%20Operations%20example%20on%20GitHub.%20My%20business%3A%20__.%20Tasks%20per%20month%3A%20__.%20Software%20we%20use%3A%20__.%20I%20would%20like%20to%20discuss%20whether%20this%20could%20save%20us%20time%20or%20money.)
 
-Make a new starter's onboarding complete, attributable and reviewable.
+**Status: BUILT FOR YOU.** Custom onboarding and policy support; compatibility with Talenox or Payboy needs scoping and testing. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/hr-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=hr-operations_source).
 
-## How the work moves
+## What your team would get
 
-The case agent fans work out to documents, task coordination and policy support. Completion joins their evidence; assigned tasks do not count as completed tasks.
+An onboarding checklist that shows what is complete, what is still missing and who is responsible.
+
+## How the assistants work together
+
+AI agents are software assistants with different jobs. A coordinating assistant sends work to document, task and policy assistants. They return confirmations and unanswered questions. A final checker keeps the list open until the required work is confirmed, while HR handles sensitive decisions.
 
 ```mermaid
-flowchart LR
-A["Case agent"]
-B["Document agent"]
-C["Task coordinator"]
-D["Policy agent"]
-E["Completion agent"]
-H{"HR review"}
-O(["Completed checklist with owner confirmations, or an explicit outstanding-items list"])
+flowchart TD
+A["Start the new employee checklist"]
+B["Check required documents"]
+C["Request updates from task owners"]
+D["Find approved policy information"]
+E["Bring the updates together"]
+H{"HR resolves missing or sensitive details"}
+O(["Confirmed checklist or clear outstanding tasks"])
 A --> B
 A --> C
 A --> D
-B -->|document state| E
-C -->|owner confirmations| E
-D -->|supported policy context| E
-B -->|missing evidence| H
+B --> E
+C --> E
+D --> E
+B -->|missing documents| H
 D -->|sensitive question| H
-H -->|resolved decision| E
-E -->|all required evidence present| O
-classDef agent fill:#f6f0e6,stroke:#9f7557,color:#222222
+H -->|HR decision recorded| E
+E --> O
+classDef assistant fill:#f6f0e6,stroke:#9f7557,color:#222222
 classDef human fill:#ffe8b6,stroke:#b57821,color:#222222
 classDef outcome fill:#e3eee6,stroke:#4e775c,color:#222222
-class A,B,C,D,E agent
+class A,B,C,D,E assistant
 class H human
 class O outcome
 ```
 
-This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
+This diagram explains the service in simple steps; it is not a screenshot or an exact system design.
 
-**Your team stays in control:** HR resolves missing evidence and sensitive exceptions, and retains all employment decisions.
+**Your team stays in control:** HR resolves missing information and sensitive situations, and retains all employment decisions.
 
-**Scope boundary:** No autonomous salary, payroll, performance, discipline or termination decisions.
+**What to know:** No independent decisions about salary, payroll, performance, discipline or termination. Assigning a task does not count as completing it.
 
-## A conversation starter
+**[Show us what HR keeps having to chase →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=hr-operations_flow)**
 
-Illustrative scenario: a new starter has supplied the required documents, but IT has not confirmed access. Completion leaves onboarding open and identifies IT as the owner. An unusual employment-term question goes to HR.
+## Picture it in your business
 
-This example is fictional; it is not a customer result or a promise of measured savings.
+Illustrative scenario: A new starter has submitted the documents, but IT has not confirmed their system access. The checklist stays open and identifies IT as the owner. An unusual employment-term question goes to HR.
 
-## What VYR would scope with you
+This example is fictional, not a client result or a measured saving.
 
-Your onboarding checklist, HR system, task owners and exception process.
+## What we would discuss
 
-VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
+Your onboarding checklist, HR software, people responsible for each task and the situations that need HR’s decision.
 
-## Consider the business case
+You do not need a technical brief. Describe the task in your own words; VYR assesses the software connections, work involved and decisions that stay with your team before confirming a written scope and price.
 
-Estimate the time this process consumes, the review that would remain, and whether freed capacity would avoid a paid cost. [See the ROI and staffing-capacity examples](../../ROI.md).
+## Could it be worth the investment?
 
-## Take the next step
+Start with how often this task happens and how long it takes today. Subtract the checking your team still needs to do. Time saved may reduce paid overtime or avoid a future hire; it becomes a cash saving only when a paid cost is actually avoided. [See the worked savings and payback examples](../../ROI.md).
 
-**[Discuss your onboarding process with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=hr-operations_bottom)**
+**[Explore onboarding help for your team →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=hr-operations_bottom)** · [Send your brief on WhatsApp](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20HR%20Operations%20example%20on%20GitHub.%20My%20business%3A%20__.%20Tasks%20per%20month%3A%20__.%20Software%20we%20use%3A%20__.%20I%20would%20like%20to%20discuss%20whether%20this%20could%20save%20us%20time%20or%20money.)
 
-Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20HR%20Operations%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
+The WhatsApp draft asks for your business, approximate tasks per month and software. Rough figures are enough to start a conversation.
 
-[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=hr-operations_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=hr-operations_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md) · [Meet Dexter Ng](../../MEET_DEXTER.md)

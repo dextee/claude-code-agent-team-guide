@@ -2,72 +2,74 @@
 
 # F&B Supplier Reorder
 
-## When stock checks and supplier orders live in separate places
+## Make stock ordering easier to check before money is spent
 
-For F&B operators reviewing repeated replenishment decisions. Bring stock signals, open orders and supplier details together for a manager's decision.
+A proposed service that brings stock levels, orders already placed and supplier details together before your manager approves a reorder.
 
-**[Discuss supplier reordering with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=food-and-beverage_top)**
+**The business benefit:** Aim to reduce repeated stock checking and make possible duplicate orders visible before approval.
+
+**Worth discussing if...** managers regularly compare stock records, supplier messages and open orders by hand.
+
+**[Discuss simpler supplier ordering →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=food-and-beverage_top)** · [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20F%26B%20Supplier%20Reorder%20example%20on%20GitHub.%20My%20business%3A%20__.%20Tasks%20per%20month%3A%20__.%20Software%20we%20use%3A%20__.%20I%20would%20like%20to%20discuss%20whether%20this%20could%20save%20us%20time%20or%20money.)
 
 **Status: BUILT FOR YOU.** Build-to-order operations blueprint; this case focuses on the detailed supplier-reorder path. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/fnb-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=food-and-beverage_source).
 
-## What the workflow would help you achieve
+## What your team would get
 
-Prepare the right stock replenishment for a manager's decision.
+A proposed order with the quantities, supplier and reason for ordering ready for a manager to check.
 
-## How the work moves
+## How the assistants work together
 
-Rules checks both inventory and open orders before supplier planning. The order draft carries assumptions into manager review. Receipt records the authorised release; it does not infer delivery.
+AI agents are software assistants with different jobs. A stock assistant spots a possible shortage. A checker compares it with orders already on the way. A supplier assistant prepares options, and an order assistant creates a draft for the manager. The approved action is recorded separately from proof of delivery.
 
 ```mermaid
-flowchart LR
-A["Stock agent"]
-B["Rules agent"]
-C["Supplier agent"]
-D["Order agent"]
-E["Receipt agent"]
-H{"Manager approval"}
-O(["Manager-approved order with traceable stock rationale"])
-A -->|stock observation| B
-P["Open orders and thresholds"] --> B
-B -->|uncovered requirement| C
-C -->|supplier proposal| D
+flowchart TD
+A["Read current stock levels"]
+B["Check what is already on order"]
+C["Check supplier options"]
+D["Prepare the proposed order"]
+H{"Manager approves supplier, quantity and spend"}
+O(["Approved order recorded; delivery checked separately"])
+A --> B
+P["Orders already placed and reorder rules"] --> B
+B -->|more stock still needed| C
+C --> D
 D --> H
-H -->|approved order| E
-E --> O
-classDef agent fill:#f6f0e6,stroke:#9f7557,color:#222222
+H -->|approved| O
+classDef assistant fill:#f6f0e6,stroke:#9f7557,color:#222222
 classDef human fill:#ffe8b6,stroke:#b57821,color:#222222
 classDef outcome fill:#e3eee6,stroke:#4e775c,color:#222222
-class A,B,C,D,E agent
+class A,B,C,D assistant
 class H human
 class O outcome
 ```
 
-This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
+This diagram explains the service in simple steps; it is not a screenshot or an exact system design.
 
-**Your team stays in control:** The manager owns supplier, quantity, substitution, price, spending and release.
+**Your team stays in control:** The manager decides the supplier, quantity, substitutions, price, spending and release of the order.
 
-**Scope boundary:** No unapproved spend or invented substitutions. Delivery remains unconfirmed until evidence arrives.
+**What to know:** No unapproved spending or invented substitutions. An order being placed does not mean it has been delivered.
 
-## A conversation starter
+**[Show us how your team checks stock and orders →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=food-and-beverage_flow)**
 
-Illustrative scenario: an ingredient appears below threshold, but an open order already covers tomorrow's need. Rules suppresses a duplicate reorder. A different item needs replenishment and proceeds as a manager-review draft.
+## Picture it in your business
 
-This example is fictional; it is not a customer result or a promise of measured savings.
+Illustrative scenario: An ingredient looks low, but an existing order already covers tomorrow’s need. The checker avoids proposing the same order again. A different item still needs replenishing, so a draft goes to the manager.
 
-## What VYR would scope with you
+This example is fictional, not a client result or a measured saving.
 
-Your stock source, reorder rules, supplier records and spending approval process.
+## What we would discuss
 
-VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
+Your stock records, reorder rules, supplier details and purchasing approval process.
 
-## Consider the business case
+You do not need a technical brief. Describe the task in your own words; VYR assesses the software connections, work involved and decisions that stay with your team before confirming a written scope and price.
 
-Estimate the time this process consumes, the review that would remain, and whether freed capacity would avoid a paid cost. [See the ROI and staffing-capacity examples](../../ROI.md).
+## Could it be worth the investment?
 
-## Take the next step
+Start with how often this task happens and how long it takes today. Subtract the checking your team still needs to do. Time saved may reduce paid overtime or avoid a future hire; it becomes a cash saving only when a paid cost is actually avoided. [See the worked savings and payback examples](../../ROI.md).
 
-**[Discuss supplier reordering with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=food-and-beverage_bottom)**
+**[Explore a reorder process your manager can review →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=food-and-beverage_bottom)** · [Send your brief on WhatsApp](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20F%26B%20Supplier%20Reorder%20example%20on%20GitHub.%20My%20business%3A%20__.%20Tasks%20per%20month%3A%20__.%20Software%20we%20use%3A%20__.%20I%20would%20like%20to%20discuss%20whether%20this%20could%20save%20us%20time%20or%20money.)
 
-Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20F%26B%20Supplier%20Reorder%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
+The WhatsApp draft asks for your business, approximate tasks per month and software. Rough figures are enough to start a conversation.
 
-[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=food-and-beverage_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=food-and-beverage_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md) · [Meet Dexter Ng](../../MEET_DEXTER.md)

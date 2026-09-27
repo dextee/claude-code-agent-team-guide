@@ -2,72 +2,73 @@
 
 # Social Command Center
 
-## When social reporting and release decisions are scattered
+## Know what was approved and what actually went live
 
-For teams that need visibility into delivery and control over exactly what gets released. Separate the view of campaign evidence from the authority to publish.
+See how VYR separates a read-only view of social delivery from the service that publishes posts after approval.
 
-**[Discuss social approvals with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=social-command-center_top)**
+**The business benefit:** Explore a clearer way for your team to check approvals and delivery without confusing a prepared post with a published one.
 
-**Status: LIVE.** Live FeedHive telemetry is read-only; new writes use a separate approval-bound publisher. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/social-media-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=social-command-center_source).
+**Worth discussing if...** several people prepare or review social posts, and checking the final version and delivery takes repeated coordination.
 
-## What the workflow would help you achieve
+**[Discuss clearer social approvals and reporting →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=social-command-center_top)** · [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Social%20Command%20Center%20example%20on%20GitHub.%20My%20business%3A%20__.%20Tasks%20per%20month%3A%20__.%20Software%20we%20use%3A%20__.%20I%20would%20like%20to%20discuss%20whether%20this%20could%20save%20us%20time%20or%20money.)
 
-Turn approved content into a controlled release and observe its actual delivery.
+**Status: LIVE.** VYR uses a read-only view of FeedHive delivery information; posting uses a separate service with human approval. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/social-media-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=social-command-center_source).
 
-## How the work moves
+## What your team would get
 
-Specialists prepare the post and check the brand rules. A person approves its copy, image, accounts, labels and schedule. A separate publishing service checks that nothing has changed before releasing it. The command centre then reports what was delivered.
+A record of the approved post and a separate report showing its delivery status.
+
+## How the assistants work together
+
+AI agents are software assistants with different jobs. Writing and checking assistants prepare a post for your marketing owner. The owner approves all post details, including wording, image, accounts, labels and schedule. A separate publishing service confirms those details have not changed before posting. The command centre then reads the delivery status.
 
 ```mermaid
-flowchart LR
-A["Source agent"]
-B["Channel writer"]
-C["Brand reviewer"]
-D["Publisher service"]
-E["Observer agent"]
-H{"Marketing owner approval"}
-O(["Approved release receipt and a separate read-only delivery report"])
-A -->|approved source| B
-B -->|copy and image| C
-C -->|post, accounts and timing| H
-H -->|approved version| D
-D -->|separate write| F["FeedHive"]
-F -->|read-only evidence| E
-E --> O
-classDef agent fill:#f6f0e6,stroke:#9f7557,color:#222222
+flowchart TD
+A["Prepare the post from approved content"]
+B["Check the wording, image and brand rules"]
+H{"Marketing owner approves post, accounts and timing"}
+C["Separate service publishes the approved version"]
+D["Read the delivery status"]
+O(["Approval record and delivery report"])
+A --> B
+B --> H
+H -->|approved details unchanged| C
+C -->|FeedHive delivery information| D
+D --> O
+classDef assistant fill:#f6f0e6,stroke:#9f7557,color:#222222
 classDef human fill:#ffe8b6,stroke:#b57821,color:#222222
 classDef outcome fill:#e3eee6,stroke:#4e775c,color:#222222
-class A,B,C,D,E agent
+class A,B,C,D assistant
 class H human
 class O outcome
 ```
 
-This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
+This diagram explains the service in simple steps; it is not a screenshot or an exact system design.
 
-**Your team stays in control:** Named-human approval binds the post, accounts and timing. Any changed field invalidates release.
+**Your team stays in control:** A named person approves the exact post, accounts and timing. Changing any approved field requires a fresh approval.
 
-**Scope boundary:** The command center itself cannot create, approve, edit, schedule or delete posts.
+**What to know:** The command centre itself is read-only: it cannot create, approve, edit, schedule or delete posts. Publishing uses a separate service.
 
-## A conversation starter
+**[Explore a clearer approved-to-published process →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=social-command-center_flow)**
 
-Illustrative scenario: a reviewer approves a Tuesday post for one account. Someone then changes the image, so publication is held for a new review. After approval, the publishing service releases the post and the command centre reports its delivery status.
+## Picture it in your business
 
-This example is fictional; it is not a customer result or a promise of measured savings.
+Illustrative scenario: A reviewer approves a Tuesday post for one account. Someone then changes the image, so publication is held for another review. After approval, the separate publisher releases the post and the command centre reports its delivery status.
 
-## What VYR would scope with you
+This example is fictional, not a client result or a measured saving.
 
-Your accounts, approval owner, content sources and current publishing tools.
+## What we would discuss
 
-VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
+Your social accounts, person responsible for approvals, content sources and publishing software.
 
-## Consider the business case
+You do not need a technical brief. Describe the task in your own words; VYR assesses the software connections, work involved and decisions that stay with your team before confirming a written scope and price.
 
-Estimate the time this process consumes, the review that would remain, and whether freed capacity would avoid a paid cost. [See the ROI and staffing-capacity examples](../../ROI.md).
+## Could it be worth the investment?
 
-## Take the next step
+Start with how often this task happens and how long it takes today. Subtract the checking your team still needs to do. Time saved may reduce paid overtime or avoid a future hire; it becomes a cash saving only when a paid cost is actually avoided. [See the worked savings and payback examples](../../ROI.md).
 
-**[Discuss social approvals with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=social-command-center_bottom)**
+**[Talk through how your team reviews social posts →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=social-command-center_bottom)** · [Send your brief on WhatsApp](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Social%20Command%20Center%20example%20on%20GitHub.%20My%20business%3A%20__.%20Tasks%20per%20month%3A%20__.%20Software%20we%20use%3A%20__.%20I%20would%20like%20to%20discuss%20whether%20this%20could%20save%20us%20time%20or%20money.)
 
-Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Social%20Command%20Center%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
+The WhatsApp draft asks for your business, approximate tasks per month and software. Rough figures are enough to start a conversation.
 
-[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=social-command-center_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=social-command-center_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md) · [Meet Dexter Ng](../../MEET_DEXTER.md)

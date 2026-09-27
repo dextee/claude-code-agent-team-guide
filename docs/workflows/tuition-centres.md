@@ -2,72 +2,75 @@
 
 # Tuition Trial Booking
 
-## When trial-class enquiries create repeated back-and-forth
+## Make it easier for parents to find a suitable trial class
 
-For centres managing parent enquiries across levels, subjects, locations and class capacity. Offer valid trial options while staff retain placement and child-specific decisions.
+A proposed service that brings the parent’s preferred subject, level, location and times together with your actual class availability.
 
-**[Discuss trial-class bookings with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=tuition-centres_top)**
+**The business benefit:** Aim to reduce repeated timetable questions and booking messages, giving centre staff more time for parents who need personal advice.
+
+**Worth discussing if...** staff regularly move between parent messages and class timetables to arrange trial lessons.
+
+**[Discuss easier trial-class bookings →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=tuition-centres_top)** · [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Tuition%20Trial%20Booking%20example%20on%20GitHub.%20My%20business%3A%20__.%20Tasks%20per%20month%3A%20__.%20Software%20we%20use%3A%20__.%20I%20would%20like%20to%20discuss%20whether%20this%20could%20save%20us%20time%20or%20money.)
 
 **Status: BUILT FOR YOU.** Build-to-order enquiry and trial-class booking workflow; placement stays with centre staff. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/tuition-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=tuition-centres_source).
 
-## What the workflow would help you achieve
+## What your team would get
 
-Match a parent's enquiry to a genuinely available trial class.
+An accepted trial booking in an available class, or a clearly explained question for centre staff to resolve.
 
-## How the work moves
+## How the assistants work together
 
-Schedule supplies actual capacity to options. The parent chooses a valid slot. Placement or special-arrangement questions branch to staff; booking records only the accepted, permitted outcome.
+AI agents are software assistants with different jobs. An enquiry assistant gathers the parent’s preferences. A timetable assistant checks places and another presents suitable options. Staff handle placement or special requests before the booking assistant records the agreed trial.
 
 ```mermaid
-flowchart LR
-A["Enquiry agent"]
-B["Schedule agent"]
-C["Options agent"]
-D["Staff handoff agent"]
-E["Booking agent"]
-H{"Centre staff"}
-O(["Accepted trial booking or a staff-owned placement question"])
-A -->|parent constraints| B
-B -->|available capacity| C
-C -->|parent accepts permitted slot| E
-C -->|placement exception| D
-D --> H
-H -->|staff decision| E
-E --> O
-classDef agent fill:#f6f0e6,stroke:#9f7557,color:#222222
+flowchart TD
+A["Understand the parent's preferences"]
+B["Check timetable and available places"]
+C["Offer suitable trial options"]
+H{"Centre staff decide placement or exceptions"}
+D["Record the agreed trial booking"]
+O(["Trial booked or staff question clearly assigned"])
+A --> B
+B --> C
+C -->|parent accepts an allowed option| D
+C -->|placement or special request| H
+H -->|staff approve a booking| D
+H -->|more discussion needed| O
+D --> O
+classDef assistant fill:#f6f0e6,stroke:#9f7557,color:#222222
 classDef human fill:#ffe8b6,stroke:#b57821,color:#222222
 classDef outcome fill:#e3eee6,stroke:#4e775c,color:#222222
-class A,B,C,D,E agent
+class A,B,C,D assistant
 class H human
 class O outcome
 ```
 
-This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
+This diagram explains the service in simple steps; it is not a screenshot or an exact system design.
 
-**Your team stays in control:** Centre staff own placement, assessments, special arrangements, fee exceptions and progress discussions.
+**Your team stays in control:** Centre staff decide placement, assessments, special arrangements, fee exceptions and discussions about a child’s progress.
 
-**Scope boundary:** No assessment of a child's ability or invented class capacity.
+**What to know:** The assistant would not assess a child’s ability or invent an available class place.
 
-## A conversation starter
+**[Explore fewer timetable messages for your staff →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=tuition-centres_flow)**
 
-Illustrative scenario: a parent wants a weekday maths trial near home. Two valid classes are offered. A request to move the child to a higher level pauses that decision for centre staff before the booking is finalised.
+## Picture it in your business
 
-This example is fictional; it is not a customer result or a promise of measured savings.
+Illustrative scenario: A parent wants a weekday maths trial near home. Two available classes are offered. A request for a higher class level goes to centre staff before a booking is finalised.
 
-## What VYR would scope with you
+This example is fictional, not a client result or a measured saving.
 
-Your class timetable, capacity source, enquiry channels and staff handoff rules.
+## What we would discuss
 
-VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
+Your class timetable, available-place records, enquiry channels and the questions staff must decide.
 
-## Consider the business case
+You do not need a technical brief. Describe the task in your own words; VYR assesses the software connections, work involved and decisions that stay with your team before confirming a written scope and price.
 
-Estimate the time this process consumes, the review that would remain, and whether freed capacity would avoid a paid cost. [See the ROI and staffing-capacity examples](../../ROI.md).
+## Could it be worth the investment?
 
-## Take the next step
+Start with how often this task happens and how long it takes today. Subtract the checking your team still needs to do. Time saved may reduce paid overtime or avoid a future hire; it becomes a cash saving only when a paid cost is actually avoided. [See the worked savings and payback examples](../../ROI.md).
 
-**[Discuss trial-class bookings with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=tuition-centres_bottom)**
+**[Talk through your centre’s parent enquiries →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=tuition-centres_bottom)** · [Send your brief on WhatsApp](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Tuition%20Trial%20Booking%20example%20on%20GitHub.%20My%20business%3A%20__.%20Tasks%20per%20month%3A%20__.%20Software%20we%20use%3A%20__.%20I%20would%20like%20to%20discuss%20whether%20this%20could%20save%20us%20time%20or%20money.)
 
-Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Tuition%20Trial%20Booking%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
+The WhatsApp draft asks for your business, approximate tasks per month and software. Rough figures are enough to start a conversation.
 
-[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=tuition-centres_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=tuition-centres_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md) · [Meet Dexter Ng](../../MEET_DEXTER.md)

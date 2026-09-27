@@ -1,95 +1,126 @@
-<p align="center"><a href="https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=hero"><img src="assets/vyr-customer-hero.jpg" alt="VYR Agent OS: more capacity, less repetitive work. AI workflows for enquiries, finance, sales and operations. Find your first workflow at vyrwork.com." width="100%"></a></p>
+# Less repetitive work. More room to grow.
 
-# AI workflows for the work your team keeps repeating
+**Your team should be helping customers, closing business and solving problems—not spending the day copying, checking and chasing.**
 
-**VYR scopes, builds and manages business automation for Singapore operations teams.** Explore 14 workflow examples for enquiries, finance, sales, support and people operations. Start with one recurring bottleneck and a clear result.
+VYR builds **AI assistants that work together** to handle repeatable business tasks: answering routine enquiries, preparing invoices, organising sales research and getting the next step ready. Your people keep the important decisions.
 
-### Have a process in mind?
+Start with one task. Find out what it could save before committing to a bigger project.
 
-**[Discuss your workflow with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_primary)** · [See the savings examples](ROI.md) · [Explore the workflows](docs/workflows/README.md)
+**[Find my best automation opportunity →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_primary)** · [Tell us your task on WhatsApp](https://wa.me/6598176520?text=Hi+VYR%2C+I+found+your+workflow+showcase+on+GitHub.+The+task+my+team+repeats+is+__.+My+business+is+__.+We+handle+about+__+tasks+per+month%2C+using+__.+I+would+like+to+discuss+whether+AI+could+save+us+time+or+money.)
 
-Tell us the process, the systems involved and what your team still needs to approve. The [VYR contact page](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_response) states a target reply within one Singapore business day.
+**Singapore-based VYR PTE. LTD.** · [Meet Dexter Ng, CTO](MEET_DEXTER.md) · [Published packages from S$2,000](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_top_pricing)
 
-## Handle more work before adding more admin
+<a href="https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=hero"><img src="assets/vyr-customer-hero.jpg" alt="VYR: more capacity, less repetitive work across enquiries, finance, sales and operations." width="100%"></a>
 
-An AI workflow coordinates repeated tasks across the information and tools your team already uses. Specialist agents prepare the work, check the supporting information and pass exceptions to the right person.
+[Explore 14 business examples](docs/workflows/README.md) · [See the savings examples](ROI.md) · [How to get started](BUYERS_GUIDE.md)
 
-- **Reduce paid admin hours** where automation can remove work currently covered by overtime or contractors.
-- **Avoid a hire or backfill** when the released work is large enough and the remaining duties are covered.
-- **Give the same team more capacity** for customers, sales conversations and exceptions that need judgment.
+## Does your business recognise this day?
 
-Whether this reduces employee headcount depends on whole-role responsibilities and service coverage. Time saved becomes payroll savings only when a paid cost is actually avoided.
+An enquiry arrives. Someone checks a calendar. Another person copies details into a spreadsheet. An invoice needs checking. A follow-up waits because everybody is busy.
 
-## What could the numbers look like?
+**The cost is more than the task itself. It is the interruption, the repeated checking and the work still waiting behind it.**
 
-**Illustrative single-workflow scenarios, not client results.** Each assumes S$30 per staff-hour and 50% of released capacity becomes avoidable paid cost.
+<a href="https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_admin_visual"><img src="assets/daily-admin-before-after.jpg" alt="Illustration: copying, checking and chasing become prepared work, human review and a clear next step." width="100%"></a>
 
-| Example | Hours released / month | Equivalent task capacity | Net cash benefit / month from month 4 |
+An agreed AI workflow can prepare that routine work and bring the unusual cases to your team with the details attached. The opportunity is to reduce paid admin work, avoid adding capacity too soon, or help the same team serve more customers.
+
+**[Show VYR the task your team keeps repeating →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_problem)** · [Start with a short WhatsApp message](https://wa.me/6598176520?text=Hi+VYR%2C+I+found+your+workflow+showcase+on+GitHub.+The+task+my+team+repeats+is+__.+My+business+is+__.+We+handle+about+__+tasks+per+month%2C+using+__.+I+would+like+to+discuss+whether+AI+could+save+us+time+or+money.)
+
+## What is an AI agent, in plain English?
+
+Think of it as **a software assistant with a specific job**. One reads the request, another checks approved information, and another prepares the next step. A workflow is simply the sequence they follow together.
+
+For example, an invoice arrives: one assistant reads it, another checks the details, and another prepares a draft for finance to review. You agree what the system may do and when a person must take over.
+
+<a href="https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_team_visual"><img src="assets/your-ai-team.jpg" alt="Four simple stages: read the request, check approved information, prepare the next step and ask a person to approve important actions." width="100%"></a>
+
+**You do not need to learn AI terminology or design the system yourself. Bring the business problem. VYR assesses the fit and agrees the work with you.**
+
+**[Could this work with my current process? →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_how)**
+
+## Start where repetitive work is costing you attention
+
+| Your business problem | What the AI workflow helps prepare | Example and readiness |
+|---|---|---|
+| Calls and booking questions interrupt your front desk | Routine answers, available options and a clear staff handover | [AI Receptionist](docs/workflows/ai-receptionist.md) · Demo with sample data |
+| Finance keeps retyping and comparing invoices | Checked details, flagged differences and an accounting draft | [Invoice Processing](docs/workflows/invoice-processing.md) · Custom build |
+| Sales spends too much time researching companies | An organised prospect spreadsheet for your team to review | [Prospect Research](docs/workflows/lead-generation.md) · Used inside VYR |
+| Customer messages bounce between inboxes | A prepared reply or the right staff member with the context | [Customer Support](docs/workflows/customer-support.md) · Custom build |
+| Follow-ups and onboarding depend on reminders | A proposed next action and a clearer record of what is outstanding | [Sales Follow-up](docs/workflows/lead-nurture.md) · [Employee Onboarding](docs/workflows/hr-operations.md) · Custom builds |
+
+More examples for [clinics](docs/workflows/clinics.md), [beauty and wellness](docs/workflows/beauty-and-wellness.md), [tuition centres](docs/workflows/tuition-centres.md), [food businesses](docs/workflows/food-and-beverage.md), [recruitment](docs/workflows/recruitment-screening.md), [content](docs/workflows/content-operations.md), [social media](docs/workflows/social-command-center.md) and [review preparation](docs/workflows/compliance-evidence.md).
+
+**[Help me choose the right first task →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_choose)** · [Compare all 14 workflows](docs/workflows/README.md)
+
+## See how a receptionist assistant handles an enquiry
+
+**A caller asks. The system checks the approved information. It answers a routine question or helps with a sample booking. Staff take the sensitive or unsupported requests.**
+
+<a href="https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_receptionist_visual"><img src="assets/ai-receptionist.jpg" alt="Receptionist demo using sample data: caller asks, information and availability are checked, caller confirms a sample booking, and exceptions go to staff." width="100%"></a>
+
+This is a working **DEMO using sample data**, with no live booking connection. The [full example](docs/workflows/ai-receptionist.md) explains both the routine-answer and booking paths.
+
+**[Ask VYR for a receptionist demonstration →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_receptionist)** · [Discuss my booking enquiries](https://wa.me/6598176520?text=Hi+VYR%2C+I+found+your+AI+Receptionist+page+through+GitHub.+My+business+is+__.+We+handle+about+__+tasks+per+month%2C+using+__.+I+would+like+to+discuss+whether+AI+could+save+us+time+or+money.)
+
+## Could it save enough to be worth doing?
+
+**Start with hours. Then check whether those hours can reduce a real cost.**
+
+| Illustrative example | Time released each month | Equivalent 8-hour working days | Net monthly cash benefit from month 4 |
 |---|---:|---:|---:|
-| Invoice administration | 40 | 0.25 FTE | S$375 |
-| Booking enquiries | 80 | 0.50 FTE | S$950 |
-| Routine support | 160 | 1.00 FTE | S$2,050 |
+| Invoice administration | 40 hours | 5 days | S$375 |
+| Booking enquiries | 80 hours | 10 days | S$950 |
+| Routine support | 160 hours | 20 days | S$2,050 |
 
-The examples subtract human review time and assumed running costs. FTE means **full-time equivalent**, using 160 hours/month; it does not mean a complete role can be removed. [See every input, annual ROI, payback and the zero-payroll-savings case →](ROI.md)
+These are **examples, not client results**. Each assumes S$30 per staff-hour, subtracts remaining human review, and assumes half the released time becomes an avoidable paid cost. Running costs are included. [See the inputs, annual return, setup recovery and the no-payroll-saving case](ROI.md).
 
-**[Ask VYR to assess your workflow's business case →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_roi)**
+The 160-hour example is one full-time equivalent of task capacity, using **160 hours/month**. Removing a complete role depends on all its duties and service coverage. Savings may come from less overtime, fewer contractor hours or avoiding a hire or backfill. If payroll stays unchanged, the benefit is extra capacity.
 
-## See how the work moves
+**[Discuss the numbers for my business →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_roi)** · [Send VYR my task volume](https://wa.me/6598176520?text=Hi+VYR%2C+I+found+your+savings+page+through+GitHub.+My+business+is+__.+We+handle+about+__+tasks+per+month%2C+using+__.+I+would+like+to+discuss+whether+AI+could+save+us+time+or+money.)
 
-<table>
-<tr>
-<td width="33%"><a href="docs/workflows/ai-receptionist.md"><img src="assets/ai-receptionist.jpg" alt="AI Receptionist demo: an enquiry moves through knowledge and sample availability checks to a sample booking or staff handoff." width="100%"></a><br><strong>AI Receptionist</strong><br>Demo · sample data<br><a href="docs/workflows/ai-receptionist.md">Explore booking enquiries →</a></td>
-<td width="33%"><a href="docs/workflows/invoice-processing.md"><img src="assets/invoice-processing.jpg" alt="Invoice Processing blueprint: capture, compare invoice with PO and receipt, finance review, and approved accounting draft." width="100%"></a><br><strong>Invoice Processing</strong><br>Built for you · not deployed<br><a href="docs/workflows/invoice-processing.md">Explore invoice administration →</a></td>
-<td width="33%"><a href="docs/workflows/lead-generation.md"><img src="assets/prospect-research.jpg" alt="Live prospect research within VYR: target brief, public research, quality checks, sales review and a reviewed CSV. No outreach is sent." width="100%"></a><br><strong>Prospect Research</strong><br>Live · VYR's own operations<br><a href="docs/workflows/lead-generation.md">Explore sales research →</a></td>
-</tr>
-</table>
+## Know who you are working with
 
-## Find the closest business problem
+**Dexter Ng is CTO at VYR WORK.** His professional background spans technology leadership, cybersecurity, data protection and business software. His current LinkedIn positioning focuses on AI automation for Singapore businesses, with people retaining important approvals.
 
-| Where work gets stuck | Explore the service example |
+That background brings practical questions into the buying conversation: what systems need to connect, which information is sensitive, and who should approve the result.
+
+You can also review his [HITBSecConf2023 speaker profile](https://conference.hitb.org/hitbsecconf2023hkt/speaker/dexter-ng/) and [2020 data-protection webinar appearance](https://blackstormco.asia/data-protection-officer-requirement-what-you-need-to-know/). These are records of Dexter's professional experience, not endorsements of VYR.
+
+[Meet Dexter and review his background](MEET_DEXTER.md) · **[View Dexter on LinkedIn](https://www.linkedin.com/in/dexterng/)**
+
+**[Discuss your process with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_credibility)**
+
+## Clear examples. Clear status.
+
+| Official label | What it means for you |
 |---|---|
-| Repeated calls, booking questions and calendar checks | [AI Receptionist](docs/workflows/ai-receptionist.md) · [Clinic Front Desk](docs/workflows/clinics.md) · [Beauty & Wellness](docs/workflows/beauty-and-wellness.md) |
-| Parent enquiries and trial-class coordination | [Tuition Trial Booking](docs/workflows/tuition-centres.md) |
-| Invoice reconciliation and repeated supplier ordering | [Invoice Processing](docs/workflows/invoice-processing.md) · [F&B Supplier Reorder](docs/workflows/food-and-beverage.md) |
-| Prospect research and missed deal follow-ups | [Lead Generation](docs/workflows/lead-generation.md) · [Lead Nurture](docs/workflows/lead-nurture.md) |
-| Content preparation and social release oversight | [Content Operations](docs/workflows/content-operations.md) · [Social Command Center](docs/workflows/social-command-center.md) |
-| Support messages moving between queues | [Customer Support](docs/workflows/customer-support.md) |
-| Onboarding coordination and application review | [HR Operations](docs/workflows/hr-operations.md) · [Recruitment Screening](docs/workflows/recruitment-screening.md) |
-| Evidence scattered across systems | [Compliance Evidence](docs/workflows/compliance-evidence.md) |
+| **LIVE — used inside VYR** | Three workflows: content preparation, prospect research and social oversight. Content generation is paused pending approvals; prospect research sends no outreach; the social console is read-only, with a separate approved publishing path. |
+| **DEMO — try it with sample data** | The voice receptionist shows the experience using sample information and calendars. |
+| **BUILT FOR YOU — a custom implementation** | Ten designs are starting points for a build agreed around your business. They are not claimed client deployments. |
 
-## See the status before you enquire
+Source status was checked on **27 September 2026**. [Review the official workflow sources](docs/workflows/SOURCES.md).
 
-**3 live workflows · 1 working demo · 10 built-to-order designs.** These are the labels published on [VYR Agent OS](https://vyrwork.com/agent-os?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_status) and checked on **27 September 2026**.
+**[Ask what is ready for my business →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_readiness)**
 
-| Status | What you can evaluate |
-|---|---|
-| **LIVE — VYR's own operations** | Content Operations, Lead Generation and Social Command Center. Content generation is currently paused behind its approval backlog. Prospect research ends at a reviewed list. The social console is read-only; a separate publisher handles approved writes. |
-| **DEMO — sample data** | A multilingual Voice Receptionist using sample information and calendars. It is not connected to a live client booking system. |
-| **BUILT FOR YOU — designed, not deployed** | Ten workflow blueprints scoped and integrated for your business. These are not claimed client deployments or case-study results. |
+## Start with one process, not a company-wide overhaul
 
-Every example shows the business goal, how specialist roles work together and where your team retains the decision. [Browse all 14 workflows →](docs/workflows/README.md)
+1. **Tell us what repeats.** The task, your software and roughly how often it happens.
+2. **Check the business case.** Time used today, review needed afterwards and costs you could actually avoid.
+3. **Agree the work.** The connections, responsibilities, price and definition of a useful result.
+4. **Build, test and launch.** Review the workflow and its exceptions before it goes live.
 
-## What working with VYR looks like
+Published packages start at **S$2,000 for one workflow**, including the first three months of Agent Care. Ongoing care starts at **S$150/month from month four**; AI usage is charged separately by the provider. Actual scope and terms are confirmed in VYR's proposal. [View current pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_offer).
 
-1. **Describe one bottleneck.** Bring the current steps, software and recurring exceptions.
-2. **Agree the scope.** VYR confirms inputs, integrations, approvals and what completion should look like.
-3. **Build and validate the workflow.** Review the proposed behaviour and exceptions before release.
-4. **Operate with an owner.** Agree monitoring, support and review responsibilities.
+**No technical brief needed.** A useful first message is: “We handle about ___ each month, using ___. The part taking the most time is ___.”
 
-See the [delivery process](https://vyrwork.com/how-it-works?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_process) and [buyer guide](BUYERS_GUIDE.md). VYR assesses the systems involved before confirming compatibility or delivery timing.
+**[Find out what AI could take off my team’s desk →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_bottom)** · [Start the conversation on WhatsApp](https://wa.me/6598176520?text=Hi+VYR%2C+I+found+your+workflow+showcase+on+GitHub.+The+task+my+team+repeats+is+__.+My+business+is+__.+We+handle+about+__+tasks+per+month%2C+using+__.+I+would+like+to+discuss+whether+AI+could+save+us+time+or+money.)
 
-## Start with one process
-
-Published Agent OS packages start at **S$2,000 for one workflow**. The first three months of Agent Care are included; ongoing care starts at **S$150/month from month four**, and model inference is billed separately by the provider. Scope and current terms are confirmed in VYR's proposal. [Check current pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_offer)
-
-**[Request a workflow scoping conversation →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_bottom)**
-
-Or [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Agent%20OS%20workflow%20showcase%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.) with a short description of the process. For confidential project details, use VYR's contact channel rather than a public GitHub issue.
+[What happens after I enquire?](BUYERS_GUIDE.md) · [Common buying questions](BUYERS_GUIDE.md#questions-business-owners-ask) · [Dexter's LinkedIn](https://www.linkedin.com/in/dexterng/)
 
 ---
 
 **VYR PTE. LTD. · Singapore · UEN 202610859G**
 
-[About VYR](https://vyrwork.com/about?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_about) · [Official Agent OS page](https://vyrwork.com/agent-os?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_footer) · [Contact](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_footer) · [Sources](docs/workflows/SOURCES.md)
+[Official Agent OS page](https://vyrwork.com/agent-os?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_footer) · [Contact VYR](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_footer) · [Company information](https://vyrwork.com/about) · [Sources](docs/workflows/SOURCES.md)
 
-Workflow examples illustrate service scope. They do not promise revenue, savings, rankings or compliance certification.
+Workflow examples explain service scope. Savings depend on the measured process and agreed implementation.

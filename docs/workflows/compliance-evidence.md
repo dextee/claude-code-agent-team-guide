@@ -2,71 +2,73 @@
 
 # Compliance Evidence
 
-## When preparing for review means chasing records across systems
+## Spend less time chasing records before a review
 
-For operations and compliance teams with a defined control register and evidence owners. Organise dated evidence and open gaps into a pack an accountable reviewer can assess.
+A proposed service to collect the documents your reviewer needs, show where they came from and make missing information easy to spot.
 
-**[Discuss evidence preparation with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=compliance-evidence_top)**
+**The business benefit:** Aim to reduce the manual searching and chasing involved in preparing a review, while keeping the reviewer’s decisions clear.
+
+**Worth discussing if...** your team repeatedly gathers records from several systems for audits, internal checks or customer reviews.
+
+**[Discuss easier evidence preparation →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=compliance-evidence_top)** · [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Compliance%20Evidence%20example%20on%20GitHub.%20My%20business%3A%20__.%20Tasks%20per%20month%3A%20__.%20Software%20we%20use%3A%20__.%20I%20would%20like%20to%20discuss%20whether%20this%20could%20save%20us%20time%20or%20money.)
 
 **Status: BUILT FOR YOU.** Build-to-order evidence preparation; it does not certify compliance or control effectiveness. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/compliance-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=compliance-evidence_source).
 
-## What the workflow would help you achieve
+## What your team would get
 
-Give a reviewer a traceable evidence pack and an honest gap register.
+An organised evidence folder and checklist showing dates, responsible people and the information still missing.
 
-## How the work moves
+## How the assistants work together
 
-Collection preserves provenance. Mapping proposes links; gap review challenges sufficiency. A person assesses meaning before the pack agent assembles the reviewed record.
+AI agents are software assistants with different jobs. One assistant collects dated records. Another links them to the relevant requirement, and a checker highlights gaps. Your reviewer decides whether the records are sufficient before the final pack is assembled.
 
 ```mermaid
-flowchart LR
-A["Collection agent"]
-B["Mapping agent"]
-C["Gap agent"]
-D["Review coordinator"]
-E["Pack agent"]
-H{"Accountable reviewer"}
-O(["Reviewed evidence index with owners, dates and visible open gaps"])
-A -->|dated sources| B
-B -->|proposed control links| C
-C -->|gaps remain visible| D
-D --> H
-H -->|reviewed conclusions| E
-E --> O
-classDef agent fill:#f6f0e6,stroke:#9f7557,color:#222222
+flowchart TD
+A["Collect dated records"]
+B["Match records to requirements"]
+C["Highlight missing or outdated evidence"]
+H{"Your reviewer decides what is sufficient"}
+D["Organise the reviewed records"]
+O(["Evidence pack with open gaps clearly listed"])
+A -->|source and date retained| B
+B --> C
+C -->|records and questions| H
+H -->|review completed| D
+D --> O
+classDef assistant fill:#f6f0e6,stroke:#9f7557,color:#222222
 classDef human fill:#ffe8b6,stroke:#b57821,color:#222222
 classDef outcome fill:#e3eee6,stroke:#4e775c,color:#222222
-class A,B,C,D,E agent
+class A,B,C,D assistant
 class H human
 class O outcome
 ```
 
-This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
+This diagram explains the service in simple steps; it is not a screenshot or an exact system design.
 
-**Your team stays in control:** The control owner, compliance lead or auditor decides sufficiency and conclusions.
+**Your team stays in control:** The responsible manager, compliance lead or auditor decides whether evidence is sufficient and what it means.
 
-**Scope boundary:** No automated certification. An absent alert is not proof that a control works.
+**What to know:** Organising records does not certify compliance or prove a control works. Missing evidence remains visible.
 
-## A conversation starter
+**[Show us the records your team keeps chasing →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=compliance-evidence_flow)**
 
-Illustrative scenario: a control has an old policy but no current execution record. Gap review marks the evidence incomplete. The reviewer assigns an owner and due date; the pack keeps the gap visible instead of displaying a pass badge.
+## Picture it in your business
 
-This example is fictional; it is not a customer result or a promise of measured savings.
+Illustrative scenario: A requirement has an old policy document but no recent record showing that the policy was followed. The checker flags the gap. The reviewer assigns someone to obtain the missing record; the final pack keeps it marked as outstanding.
 
-## What VYR would scope with you
+This example is fictional, not a client result or a measured saving.
 
-Your control set, in-scope records, evidence owners and review schedule.
+## What we would discuss
 
-VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
+The requirements being reviewed, records to include, people responsible for them and your review schedule.
 
-## Consider the business case
+You do not need a technical brief. Describe the task in your own words; VYR assesses the software connections, work involved and decisions that stay with your team before confirming a written scope and price.
 
-Estimate the time this process consumes, the review that would remain, and whether freed capacity would avoid a paid cost. [See the ROI and staffing-capacity examples](../../ROI.md).
+## Could it be worth the investment?
 
-## Take the next step
+Start with how often this task happens and how long it takes today. Subtract the checking your team still needs to do. Time saved may reduce paid overtime or avoid a future hire; it becomes a cash saving only when a paid cost is actually avoided. [See the worked savings and payback examples](../../ROI.md).
 
-**[Discuss evidence preparation with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=compliance-evidence_bottom)**
+**[Explore a clearer review-ready evidence pack →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=compliance-evidence_bottom)** · [Send your brief on WhatsApp](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Compliance%20Evidence%20example%20on%20GitHub.%20My%20business%3A%20__.%20Tasks%20per%20month%3A%20__.%20Software%20we%20use%3A%20__.%20I%20would%20like%20to%20discuss%20whether%20this%20could%20save%20us%20time%20or%20money.)
 
-Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Compliance%20Evidence%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
+The WhatsApp draft asks for your business, approximate tasks per month and software. Rough figures are enough to start a conversation.
 
-[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=compliance-evidence_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=compliance-evidence_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md) · [Meet Dexter Ng](../../MEET_DEXTER.md)
