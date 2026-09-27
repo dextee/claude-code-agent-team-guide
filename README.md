@@ -14,7 +14,22 @@
 
 Anthropic recommends Opus 5.5 as the starting point for most workloads, with Fable 5.1 for harder work or when Opus at higher effort still misses your quality bar. The role assignments below are this guide's recommendations, not benchmark results. [Model overview](https://platform.claude.com/docs/en/models/overview)
 
-**[Quick start](#quick-start)** · **[Choose a model](#choose-a-model-for-the-task)** · **[Prices](#model-comparison)** · **[Upgrade](docs/OPUS_5_5_UPGRADE.md)** · **[Setup](SETUP.md)**
+**[Workflow atlas](docs/workflows/README.md)** · **[Quick start](#quick-start)** · **[Choose a model](#choose-a-model-for-the-task)** · **[Prices](#model-comparison)** · **[Upgrade](docs/OPUS_5_5_UPGRADE.md)** · **[Setup](SETUP.md)**
+
+## See agents work together toward a business goal
+
+Explore the **[Agent Workflow Atlas](docs/workflows/README.md)**: all 14 workflows from [VYR Agent OS](https://vyrwork.com/agent-os), checked on 27 September 2026. Each case has a concrete goal, collaboration diagram, agent handoffs, human decision, fictional worked example and evaluation ideas.
+
+| Start here | What the team coordinates |
+|---|---|
+| [AI Receptionist](docs/workflows/ai-receptionist.md) | Enquiry, knowledge, sample availability, booking and staff handoff |
+| [Invoice Processing](docs/workflows/invoice-processing.md) | Capture, extraction, matching, finance review and an accounting draft |
+| [Content Operations](docs/workflows/content-operations.md) | Planning, research, writing, review and approved publication |
+| [Beauty & Wellness](docs/workflows/beauty-and-wellness.md) | Therapist and room availability, package checks, booking and follow-up |
+
+The atlas preserves **3 live / 1 demo / 10 built-for-you** source labels. Role diagrams are educational designs; they do not claim to expose VYR's exact deployed internals. The [build playbook](docs/workflows/BUILD_PLAYBOOK.md) explains how this repository's Claude Code agents can help implement them.
+
+The [14 raster-art prompts](docs/workflows/IMAGE_PROMPTS.md) are prepared for the requested GPT Image 2.5 Sunburst path. Image generation is pending model-access selection; see [artwork provenance](docs/workflows/ARTWORK.md).
 
 ## What changed with Opus 5.5?
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## Workflow atlas documentation — 2026-09-27
+
+- Review all 14 VYR Agent OS workflow pages and preserve their live, demo and build-to-order status.
+- Add 14 concrete use cases with collaboration diagrams, input/output contracts, human decisions and fictional worked examples.
+- Add a source register and a build playbook separating Claude Code development agents from business-runtime roles.
+- Prepare 14 coordinated illustration prompts for GPT Image 2.5 Sunburst. Raster generation remains pending model-access selection.
+
 ## 1.1.0 — 2026-09-27
 
 - Upgrade lead and implementer to pinned Opus 5.5 with medium starting effort.
