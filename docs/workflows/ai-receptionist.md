@@ -1,18 +1,20 @@
-[← All 14 workflows](README.md) · [Guide](../../README.md) · [VYR source](https://vyrwork.com/agent-os/spa-demo)
+[← All workflows](README.md) · [VYR Agent OS](../../README.md)
 
-# 01. AI Receptionist
+# AI Receptionist
 
-**DEMO · Checked 27 September 2026**
+## When booking enquiries keep interrupting your front desk
 
-Working voice software using sample business data; no live booking connection.
+For appointment-led businesses exploring a multilingual first point of contact. See how a caller can move from a question to a sample booking, with staff taking over exceptions.
 
-> **Goal:** Turn an inbound call into a correct sample booking or a useful staff handoff.
+**[Ask for a receptionist demonstration with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=ai-receptionist_top)**
 
-The role design, worked example and evaluation below are educational proposals. The status and workflow boundary come from the linked VYR page; these role names are not a claim about its exact deployed agent roster.
+**Status: DEMO.** Working voice software using sample business data; no live booking connection. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/spa-demo?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=ai-receptionist_source).
 
-## Trigger and collaboration
+## What the workflow would help you achieve
 
-A caller asks for a Saturday appointment in their preferred language.
+Turn an inbound call into a correct sample booking or a useful staff handoff.
+
+## How the work moves
 
 The concierge dispatches a factual enquiry to knowledge and a booking enquiry to availability. It joins their findings before asking the caller to choose. Sensitive or unsupported requests branch directly to a person.
 
@@ -41,34 +43,28 @@ class H human
 class O outcome
 ```
 
-## What each agent passes forward
+This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
 
-| Role | Receives | Produces |
-|---|---|---|
-| Concierge agent | Call + supported-language list | Intent, language and minimum contact details |
-| Knowledge agent | Intent + approved sample FAQs | Supported answer with a source reference |
-| Availability agent | Service + requested time | Valid options from the sample calendar |
-| Booking agent | Selected sample slot + caller confirmation | Sample booking record and read-back |
-| Handoff agent | Unsupported request + conversation summary | Reason, unresolved question and staff queue item |
+**Your team stays in control:** Staff own sensitive requests, policy exceptions and unsupported questions.
 
-**Human decision:** Staff own sensitive requests, policy exceptions and unsupported questions.
+**Scope boundary:** Every booking is a simulation. Do not represent a sample slot as a real appointment.
 
-**Boundary:** Every booking is a simulation. Do not represent a sample slot as a real appointment.
+## A conversation starter
 
-**Done means:** Sample booking plus read-back, or a staff-ready handoff.
+Illustrative scenario: a caller requests a 60-minute appointment on Saturday. Availability returns 14:00 and 16:00 from the demo calendar. The caller chooses 16:00; the booking agent repeats the date and time and records a sample booking. A refund question is transferred with its context.
 
-## Worked example
+This example is fictional; it is not a customer result or a promise of measured savings.
 
-Fictional run: a caller requests a 60-minute appointment on Saturday. Availability returns 14:00 and 16:00 from the demo calendar. The caller chooses 16:00; the booking agent repeats the date and time and records a sample booking. A refund question is transferred with its context.
+## What VYR would scope with you
 
-This is a fictional scenario, not a customer result or a performance claim.
+Your enquiry types, opening hours, booking system, languages and staff handoff rules.
 
-## How to evaluate it
+VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
 
-Evaluate slot accuracy, handoff completeness, language handling and response latency against scripted calls.
+## Take the next step
 
-Keep a run ID, dated source references, permitted actions, current state, unresolved questions and decision owner with every handoff. Confirm external writes from the receiving system before declaring them complete. See the [build playbook](BUILD_PLAYBOOK.md) for implementation and model-role guidance.
+**[Ask for a receptionist demonstration with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=ai-receptionist_bottom)**
 
-## Artwork
+Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20AI%20Receptionist%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
 
-The [image prompt set](IMAGE_PROMPTS.md) includes a dedicated illustration for this workflow. Generation provenance and current asset availability are tracked in [ARTWORK.md](ARTWORK.md).
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=ai-receptionist_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)

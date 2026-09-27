@@ -1,20 +1,22 @@
-[← All 14 workflows](README.md) · [Guide](../../README.md) · [VYR source](https://vyrwork.com/agent-os/seo-flow)
+[← All workflows](README.md) · [VYR Agent OS](../../README.md)
 
-# 02. Content Operations
+# Content Operations
 
-**LIVE · Checked 27 September 2026**
+## When good content stalls between research, editing and approval
 
-Live eleven-agent pipeline; new generation is currently paused behind an approval backlog.
+For marketing teams with a content backlog and a named editor. Bring research, writing and review into one accountable path before publication.
 
-> **Goal:** Prepare a sourced article and release only the version an editor approves.
+**[Discuss your content bottleneck with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=content-operations_top)**
 
-The role design, worked example and evaluation below are educational proposals. The status and workflow boundary come from the linked VYR page; these role names are not a claim about its exact deployed agent roster.
+**Status: LIVE.** Live eleven-agent pipeline; new generation is currently paused behind an approval backlog. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/seo-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=content-operations_source).
 
-## Trigger and collaboration
+## What the workflow would help you achieve
 
-An approved topic becomes eligible in the keyword calendar.
+Prepare a sourced article and release only the version an editor approves.
 
-Planner checks overlap before commissioning research. Writer consumes the evidence packet; reviewer returns specific revision requests to writer. Only the editor can move an accepted version to release. These five role groups explain the public seven-stage control path; they are not the exact eleven-agent roster.
+## How the work moves
+
+Planner checks overlap before commissioning research. Writer consumes the evidence packet; reviewer returns specific revision requests to writer. Only the editor can move an accepted version to release. The diagram groups the published control stages for easier reading.
 
 ```mermaid
 flowchart LR
@@ -40,34 +42,28 @@ class H human
 class O outcome
 ```
 
-## What each agent passes forward
+This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
 
-| Role | Receives | Produces |
-|---|---|---|
-| Planner agent | Keyword + audience + page inventory | Brief and search-intent overlap decision |
-| Research agent | Cleared brief + public sources | Evidence packet and outline |
-| Writer agent | Outline + evidence + house style | Draft with traceable claims |
-| Review agent | Draft + page inventory | Metadata, link and claim findings |
-| Release agent | Exact approved article + reviewer decision | Published route and verification receipt |
+**Your team stays in control:** A named editor approves, rejects or requests changes before publication.
 
-**Human decision:** A named editor approves, rejects or requests changes before publication.
+**Scope boundary:** Backlog pause remains visible; a prepared draft is not a live page or a ranking result.
 
-**Boundary:** Backlog pause remains visible; a prepared draft is not a live page or a ranking result.
+## A conversation starter
 
-**Done means:** Approved article, verified route and recorded review decision.
+Illustrative scenario: the planner finds that a proposed article overlaps an existing page and holds the draft. After the editor selects a distinct intent, research and writing proceed; a missing source sends the draft back to research before approval.
 
-## Worked example
+This example is fictional; it is not a customer result or a promise of measured savings.
 
-Fictional run: the planner finds that a proposed article overlaps an existing page and holds the draft. After the editor selects a distinct intent, research and writing proceed; a missing source sends the draft back to research before approval.
+## What VYR would scope with you
 
-This is a fictional scenario, not a customer result or a performance claim.
+Your audience, existing content, review owner and publishing system.
 
-## How to evaluate it
+VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
 
-Track revision causes, unsupported-claim rate, duplicate-intent holds and successful live-route verification.
+## Take the next step
 
-Keep a run ID, dated source references, permitted actions, current state, unresolved questions and decision owner with every handoff. Confirm external writes from the receiving system before declaring them complete. See the [build playbook](BUILD_PLAYBOOK.md) for implementation and model-role guidance.
+**[Discuss your content bottleneck with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=content-operations_bottom)**
 
-## Artwork
+Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Content%20Operations%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
 
-The [image prompt set](IMAGE_PROMPTS.md) includes a dedicated illustration for this workflow. Generation provenance and current asset availability are tracked in [ARTWORK.md](ARTWORK.md).
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=content-operations_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)

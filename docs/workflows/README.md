@@ -1,49 +1,50 @@
-# The Agent Workflow Atlas
+[← VYR Agent OS](../../README.md)
 
-**14 concrete goals. Specialised agents. Visible handoffs. Human-owned decisions.**
+# Find a workflow worth taking off your team's desk
 
-A companion to the [Claude Code Agent Team Guide](../../README.md), grounded in every workflow listed on [VYR Agent OS](https://vyrwork.com/agent-os). Source pages checked **27 September 2026**.
+Choose the business problem closest to yours. Each example explains the goal, the work an agent team can coordinate, the decisions your people retain and what VYR would need to scope it.
 
-Start with the [AI Receptionist](ai-receptionist.md): a concierge coordinates knowledge, availability and booking agents, while unsupported requests go to staff with their context intact.
+**[Discuss your process with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=workflow_index_top)** · [Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=workflow_index_pricing)
 
-| VYR source status | Count | What it means here |
-|---|---:|---|
-| LIVE | 3 | The public site describes a production backend; important limits are retained below. |
-| DEMO | 1 | Working voice software on sample data, without live booking integration. |
-| BUILT FOR YOU | 10 | Specified designs to build and integrate; not deployed client results. |
+## Calls, bookings and customer service
 
-The diagrams propose **how agents can cooperate**. They are educational designs, not audited maps of VYR's private infrastructure. Worked examples are fictional. Measures are evaluation suggestions, not achieved results. Model selection belongs to the [build playbook](BUILD_PLAYBOOK.md); no particular model is attributed to VYR's production systems.
+| Workflow | Where it fits | Status |
+|---|---|---|
+| [AI Receptionist](ai-receptionist.md) | booking enquiries keep interrupting your front desk | DEMO |
+| [Clinic Front Desk](clinics.md) | appointment administration takes staff away from patients | BUILT FOR YOU |
+| [Beauty & Wellness](beauty-and-wellness.md) | bookings require checking several calendars and package records | BUILT FOR YOU |
+| [Tuition Trial Booking](tuition-centres.md) | trial-class enquiries create repeated back-and-forth | BUILT FOR YOU |
+| [Customer Support](customer-support.md) | enquiries bounce between inboxes and people | BUILT FOR YOU |
 
-## Explore the workflows
+## Sales and marketing operations
 
-| # | Use case | Concrete goal | Source status |
-|---|---|---|---|
-| 01 | [AI Receptionist](ai-receptionist.md) | Turn an inbound call into a correct sample booking or a useful staff handoff. | DEMO |
-| 02 | [Content Operations](content-operations.md) | Prepare a sourced article and release only the version an editor approves. | LIVE |
-| 03 | [Lead Generation](lead-generation.md) | Deliver a sourced prospect list that a sales owner can review. | LIVE |
-| 04 | [Social Command Center](social-command-center.md) | Turn approved content into a controlled release and observe its actual delivery. | LIVE |
-| 05 | [Clinic Front Desk](clinics.md) | Resolve appointment administration while keeping clinical questions with clinic staff. | BUILT FOR YOU |
-| 06 | [Invoice Processing](invoice-processing.md) | Convert an invoice into a reviewed accounting draft with explainable exceptions. | BUILT FOR YOU |
-| 07 | [Customer Support](customer-support.md) | Get each enquiry to a supported answer or the right person with full context. | BUILT FOR YOU |
-| 08 | [HR Operations](hr-operations.md) | Make a new starter's onboarding complete, attributable and reviewable. | BUILT FOR YOU |
-| 09 | [Recruitment Screening](recruitment-screening.md) | Prepare a transparent application review and coordinate recruiter-approved interviews. | BUILT FOR YOU |
-| 10 | [F&B Supplier Reorder](food-and-beverage.md) | Prepare the right stock replenishment for a manager's decision. | BUILT FOR YOU |
-| 11 | [Tuition Trial Booking](tuition-centres.md) | Match a parent's enquiry to a genuinely available trial class. | BUILT FOR YOU |
-| 12 | [Lead Nurture](lead-nurture.md) | Prepare a relevant next contact for the deal owner's approval. | BUILT FOR YOU |
-| 13 | [Compliance Evidence](compliance-evidence.md) | Give a reviewer a traceable evidence pack and an honest gap register. | BUILT FOR YOU |
-| 14 | [Beauty & Wellness](beauty-and-wellness.md) | Coordinate service, therapist, room and package information into a valid booking. | BUILT FOR YOU |
+| Workflow | Where it fits | Status |
+|---|---|---|
+| [Lead Generation](lead-generation.md) | sales spends too much time assembling prospect lists | LIVE |
+| [Lead Nurture](lead-nurture.md) | follow-ups depend on someone remembering a stalled deal | BUILT FOR YOU |
+| [Content Operations](content-operations.md) | good content stalls between research, editing and approval | LIVE |
+| [Social Command Center](social-command-center.md) | social reporting and release decisions are scattered | LIVE |
 
-## Read the live boundaries first
+## Finance, people and operations
 
-- **Content Operations:** a live eleven-agent pipeline, grouped here into five educational roles; the main page says new generation is paused behind its approval backlog. Publication requires a human decision.
-- **Lead Generation:** source, enrich, deduplicate and check prospect records; the workflow ends at a reviewed CSV and never sends outreach.
-- **Social Command Center:** its live FeedHive console is read-only. A separate publisher checks approval against exact copy, image, accounts, labels and schedule before any new write.
-- **Voice Receptionist:** uses sample business facts and calendars. A sample booking is not an actual appointment.
+| Workflow | Where it fits | Status |
+|---|---|---|
+| [Invoice Processing](invoice-processing.md) | invoices arrive faster than finance can reconcile them | BUILT FOR YOU |
+| [F&B Supplier Reorder](food-and-beverage.md) | stock checks and supplier orders live in separate places | BUILT FOR YOU |
+| [HR Operations](hr-operations.md) | onboarding depends on chasing several people | BUILT FOR YOU |
+| [Recruitment Screening](recruitment-screening.md) | application review is hard to keep consistent | BUILT FOR YOU |
+| [Compliance Evidence](compliance-evidence.md) | preparing for review means chasing records across systems | BUILT FOR YOU |
 
-VYR's proposed cross-workflow shared-memory layer is **build-to-order and not wired into the three live pipelines**. Run-specific handoff packets in these diagrams do not imply deployed shared memory. [Current source overview](https://vyrwork.com/agent-os)
+## What those labels mean
 
-## Using the atlas
+**LIVE** means VYR describes the workflow as operating in its own environment. **DEMO** means working software on sample data. **BUILT FOR YOU** means a designed workflow that would be integrated for the client; no deployment is claimed.
 
-Each case includes a goal, trigger, collaboration diagram, input/output contracts, human decision, completion condition, fictional worked example and evaluation ideas. Read the [build playbook](BUILD_PLAYBOOK.md) to translate a case into an implementation brief. See the [source register](SOURCES.md) for all 14 original workflow pages.
+Important limits: content generation is paused behind an approval backlog; the live prospect workflow does not send outreach; the live social console is read-only with a separate approved publishing path. The receptionist has no live booking connection. A proposed shared-memory capability is build-to-order and is not connected to VYR's three live pipelines.
 
-Raster illustrations are being prepared from the [14 image prompts](IMAGE_PROMPTS.md). [Artwork provenance](ARTWORK.md) records whether the requested GPT Image 2.5 path has actually generated assets; a prepared prompt does not count as a generated image.
+Source status checked **27 September 2026** against [VYR Agent OS](https://vyrwork.com/agent-os?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=workflow_index_source). Illustrative examples are not client case studies. [Source register](SOURCES.md)
+
+## Your process does not need to match a card exactly
+
+Bring one bottleneck and the systems it touches. VYR will assess whether an existing workflow is a useful starting point and where the scope needs to change.
+
+**[Tell VYR what you want to improve →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=workflow_index_bottom)** · [Prepare for the conversation](../../BUYERS_GUIDE.md)

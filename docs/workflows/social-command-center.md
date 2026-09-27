@@ -1,18 +1,20 @@
-[← All 14 workflows](README.md) · [Guide](../../README.md) · [VYR source](https://vyrwork.com/agent-os/social-media-flow)
+[← All workflows](README.md) · [VYR Agent OS](../../README.md)
 
-# 04. Social Command Center
+# Social Command Center
 
-**LIVE · Checked 27 September 2026**
+## When social reporting and release decisions are scattered
 
-Live FeedHive telemetry is read-only; new writes use a separate approval-bound publisher.
+For teams that need visibility into delivery and control over exactly what gets released. Separate the view of campaign evidence from the authority to publish.
 
-> **Goal:** Turn approved content into a controlled release and observe its actual delivery.
+**[Discuss social approvals with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=social-command-center_top)**
 
-The role design, worked example and evaluation below are educational proposals. The status and workflow boundary come from the linked VYR page; these role names are not a claim about its exact deployed agent roster.
+**Status: LIVE.** Live FeedHive telemetry is read-only; new writes use a separate approval-bound publisher. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/social-media-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=social-command-center_source).
 
-## Trigger and collaboration
+## What the workflow would help you achieve
 
-A source item has permission for social repurposing.
+Turn approved content into a controlled release and observe its actual delivery.
+
+## How the work moves
 
 Drafting and review prepare the release packet. A person approves the exact copy, image, accounts, labels and schedule. A separate publisher validates that binding; the observer only reads resulting telemetry.
 
@@ -40,34 +42,28 @@ class H human
 class O outcome
 ```
 
-## What each agent passes forward
+This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
 
-| Role | Receives | Produces |
-|---|---|---|
-| Source agent | Approved owned content | Source packet and usage context |
-| Channel writer | Source packet + platform rules | Channel-specific copy and image proposal |
-| Brand reviewer | Proposed content + brand rules | Supported claims and release manifest |
-| Publisher service | Named-human approval + exact manifest | Revalidated FeedHive write and receipt |
-| Observer agent | Read-only FeedHive snapshots | Delivery state, audience and measurement report |
+**Your team stays in control:** Named-human approval binds the exact release manifest. Any changed field invalidates release.
 
-**Human decision:** Named-human approval binds the exact release manifest. Any changed field invalidates release.
+**Scope boundary:** The command center itself cannot create, approve, edit, schedule or delete posts.
 
-**Boundary:** The command center itself cannot create, approve, edit, schedule or delete posts.
+## A conversation starter
 
-**Done means:** Approved release receipt and a separate read-only delivery report.
+Illustrative scenario: a reviewer approves Tuesday copy for one account. A later image swap makes the binding invalid, so the publisher holds. After a fresh approval, a release can proceed; the observer reports the returned delivery state without mutating it.
 
-## Worked example
+This example is fictional; it is not a customer result or a promise of measured savings.
 
-Fictional run: a reviewer approves Tuesday copy for one account. A later image swap makes the binding invalid, so the publisher holds. After a fresh approval, a release can proceed; the observer reports the returned delivery state without mutating it.
+## What VYR would scope with you
 
-This is a fictional scenario, not a customer result or a performance claim.
+Your accounts, approval owner, content sources and current publishing tools.
 
-## How to evaluate it
+VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
 
-Test changed-manifest rejection, wrong-account rejection and receipt-to-telemetry reconciliation.
+## Take the next step
 
-Keep a run ID, dated source references, permitted actions, current state, unresolved questions and decision owner with every handoff. Confirm external writes from the receiving system before declaring them complete. See the [build playbook](BUILD_PLAYBOOK.md) for implementation and model-role guidance.
+**[Discuss social approvals with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=social-command-center_bottom)**
 
-## Artwork
+Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Social%20Command%20Center%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
 
-The [image prompt set](IMAGE_PROMPTS.md) includes a dedicated illustration for this workflow. Generation provenance and current asset availability are tracked in [ARTWORK.md](ARTWORK.md).
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=social-command-center_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)

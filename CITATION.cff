@@ -1,16 +1,14 @@
 cff-version: 1.2.0
-message: "If you reference this guide, please cite it as below."
-title: "Claude Code Agent Team Guide: Which AI Model Should Each Agent Use?"
+message: "For current service details, visit https://vyrwork.com/agent-os."
+title: "VYR Agent OS: Business Workflow Showcase"
 authors:
-  - given-names: Dexter
-    family-names: Ng
-    alias: dextee
-repository-code: "https://github.com/dextee/claude-code-agent-team-guide"
+  - name: "VYR"
+url: "https://vyrwork.com/agent-os"
 license: MIT
-version: 1.1.0
+version: 2.0.0
 date-released: 2026-09-27
 keywords:
-  - claude-code
+  - business-process-automation
+  - workflow-automation
+  - singapore
   - ai-agents
-  - multi-agent
-  - llm

@@ -1,0 +1,20 @@
+name: Correct showcase information
+description: Report a factual issue with a workflow description or source status
+title: "[Correction] "
+body:
+  - type: markdown
+    attributes:
+      value: "For a project enquiry, use the VYR contact link instead. Issues are public."
+  - type: input
+    id: page
+    attributes:
+      label: Page or section
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What needs correcting?
+      description: "Describe the statement and link to a current VYR source. Do not include confidential information."
+    validations:
+      required: true

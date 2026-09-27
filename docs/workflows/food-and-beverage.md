@@ -1,18 +1,20 @@
-[← All 14 workflows](README.md) · [Guide](../../README.md) · [VYR source](https://vyrwork.com/agent-os/fnb-flow)
+[← All workflows](README.md) · [VYR Agent OS](../../README.md)
 
-# 10. F&B Supplier Reorder
+# F&B Supplier Reorder
 
-**BUILT FOR YOU · Checked 27 September 2026**
+## When stock checks and supplier orders live in separate places
 
-Build-to-order operations blueprint; this case focuses on the detailed supplier-reorder path.
+For F&B operators reviewing repeated replenishment decisions. Bring stock signals, open orders and supplier details together for a manager's decision.
 
-> **Goal:** Prepare the right stock replenishment for a manager's decision.
+**[Discuss supplier reordering with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=food-and-beverage_top)**
 
-The role design, worked example and evaluation below are educational proposals. The status and workflow boundary come from the linked VYR page; these role names are not a claim about its exact deployed agent roster.
+**Status: BUILT FOR YOU.** Build-to-order operations blueprint; this case focuses on the detailed supplier-reorder path. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/fnb-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=food-and-beverage_source).
 
-## Trigger and collaboration
+## What the workflow would help you achieve
 
-An approved inventory or shift-handover signal crosses a reorder threshold.
+Prepare the right stock replenishment for a manager's decision.
+
+## How the work moves
 
 Rules checks both inventory and open orders before supplier planning. The order draft carries assumptions into manager review. Receipt records the authorised release; it does not infer delivery.
 
@@ -40,34 +42,28 @@ class H human
 class O outcome
 ```
 
-## What each agent passes forward
+This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
 
-| Role | Receives | Produces |
-|---|---|---|
-| Stock agent | Inventory + usage signal | Current stock observation and timestamp |
-| Rules agent | Observation + thresholds + open orders | Reorder need or already-covered decision |
-| Supplier agent | Needed items + approved supplier register | Quantity and supplier proposal |
-| Order agent | Proposal + evidence | Draft purchase order and exceptions |
-| Receipt agent | Manager-approved release | Order receipt and expected-delivery record |
+**Your team stays in control:** The manager owns supplier, quantity, substitution, price, spending and release.
 
-**Human decision:** The manager owns supplier, quantity, substitution, price, spending and release.
+**Scope boundary:** No unapproved spend or invented substitutions. Delivery remains unconfirmed until evidence arrives.
 
-**Boundary:** No unapproved spend or invented substitutions. Delivery remains unconfirmed until evidence arrives.
+## A conversation starter
 
-**Done means:** Manager-approved order with traceable stock rationale.
+Illustrative scenario: an ingredient appears below threshold, but an open order already covers tomorrow's need. Rules suppresses a duplicate reorder. A different item needs replenishment and proceeds as a manager-review draft.
 
-## Worked example
+This example is fictional; it is not a customer result or a promise of measured savings.
 
-Fictional run: an ingredient appears below threshold, but an open order already covers tomorrow's need. Rules suppresses a duplicate reorder. A different item needs replenishment and proceeds as a manager-review draft.
+## What VYR would scope with you
 
-This is a fictional scenario, not a customer result or a performance claim.
+Your stock source, reorder rules, supplier records and spending approval process.
 
-## How to evaluate it
+VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
 
-Evaluate duplicate-order prevention, stock freshness, approval binding and order-receipt accuracy.
+## Take the next step
 
-Keep a run ID, dated source references, permitted actions, current state, unresolved questions and decision owner with every handoff. Confirm external writes from the receiving system before declaring them complete. See the [build playbook](BUILD_PLAYBOOK.md) for implementation and model-role guidance.
+**[Discuss supplier reordering with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=food-and-beverage_bottom)**
 
-## Artwork
+Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20F%26B%20Supplier%20Reorder%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
 
-The [image prompt set](IMAGE_PROMPTS.md) includes a dedicated illustration for this workflow. Generation provenance and current asset availability are tracked in [ARTWORK.md](ARTWORK.md).
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=food-and-beverage_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)

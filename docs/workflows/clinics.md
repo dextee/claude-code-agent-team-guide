@@ -1,18 +1,20 @@
-[← All 14 workflows](README.md) · [Guide](../../README.md) · [VYR source](https://vyrwork.com/agent-os/clinic-flow)
+[← All workflows](README.md) · [VYR Agent OS](../../README.md)
 
-# 05. Clinic Front Desk
+# Clinic Front Desk
 
-**BUILT FOR YOU · Checked 27 September 2026**
+## When appointment administration takes staff away from patients
 
-Build-to-order administrative workflow; no deployed clinic result is claimed.
+For clinics exploring help with booking and reminders while keeping clinical matters with staff. Organise administrative requests, availability and follow-up around the clinic's approval rules.
 
-> **Goal:** Resolve appointment administration while keeping clinical questions with clinic staff.
+**[Discuss your clinic front desk with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=clinics_top)**
 
-The role design, worked example and evaluation below are educational proposals. The status and workflow boundary come from the linked VYR page; these role names are not a claim about its exact deployed agent roster.
+**Status: BUILT FOR YOU.** Build-to-order administrative workflow; no deployed clinic result is claimed. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/clinic-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=clinics_source).
 
-## Trigger and collaboration
+## What the workflow would help you achieve
 
-A patient sends an appointment or rescheduling request.
+Resolve appointment administration while keeping clinical questions with clinic staff.
+
+## How the work moves
 
 Intake routes administrative requests to schedule. Confirmation returns details for acceptance; exception checks can interrupt the path at any point. Record consumes only the permitted administrative outcome.
 
@@ -40,34 +42,28 @@ class H human
 class O outcome
 ```
 
-## What each agent passes forward
+This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
 
-| Role | Receives | Produces |
-|---|---|---|
-| Intake agent | Approved channel + booking request | Administrative intent and supplied constraints |
-| Schedule agent | Practitioner schedule + constraints | Available appointment options |
-| Confirmation agent | Chosen option + administrative policy | Booking or reminder proposal |
-| Exception agent | Clinical, identity or sensitive-record issue | Authorised-staff handoff |
-| Record agent | Confirmed administrative decision | Booking state, reminder and audit entry |
+**Your team stays in control:** Clinic staff own clinical judgment, identity decisions, sensitive records and exceptional release.
 
-**Human decision:** Clinic staff own clinical judgment, identity decisions, sensitive records and exceptional release.
+**Scope boundary:** No diagnosis, symptom triage or clinical advice. Booking-system compatibility requires assessment.
 
-**Boundary:** No diagnosis, symptom triage or clinical advice. Booking-system compatibility requires assessment.
+## A conversation starter
 
-**Done means:** Correct administrative record or a contextual staff handoff.
+Illustrative scenario: a patient asks to move an appointment to Friday. A matching slot is proposed. When the patient also asks whether new symptoms require treatment, the agent passes that question to staff instead of interpreting it.
 
-## Worked example
+This example is fictional; it is not a customer result or a promise of measured savings.
 
-Fictional run: a patient asks to move an appointment to Friday. A matching slot is proposed. When the patient also asks whether new symptoms require treatment, the agent passes that question to staff instead of interpreting it.
+## What VYR would scope with you
 
-This is a fictional scenario, not a customer result or a performance claim.
+Your booking system, administrative requests, staff owners and sensitive exceptions.
 
-## How to evaluate it
+VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
 
-Evaluate schedule consistency, clinical-question routing, identity holds and record-write receipts.
+## Take the next step
 
-Keep a run ID, dated source references, permitted actions, current state, unresolved questions and decision owner with every handoff. Confirm external writes from the receiving system before declaring them complete. See the [build playbook](BUILD_PLAYBOOK.md) for implementation and model-role guidance.
+**[Discuss your clinic front desk with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=clinics_bottom)**
 
-## Artwork
+Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Clinic%20Front%20Desk%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
 
-The [image prompt set](IMAGE_PROMPTS.md) includes a dedicated illustration for this workflow. Generation provenance and current asset availability are tracked in [ARTWORK.md](ARTWORK.md).
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=clinics_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)

@@ -1,18 +1,20 @@
-[← All 14 workflows](README.md) · [Guide](../../README.md) · [VYR source](https://vyrwork.com/agent-os/invoice-flow)
+[← All workflows](README.md) · [VYR Agent OS](../../README.md)
 
-# 06. Invoice Processing
+# Invoice Processing
 
-**BUILT FOR YOU · Checked 27 September 2026**
+## When invoices arrive faster than finance can reconcile them
 
-Build-to-order invoice review and Xero draft integration; payment authority stays with finance.
+For finance teams handling repeated invoice capture, matching and exception review. Give finance a source-backed exception packet before an approved accounting draft is prepared.
 
-> **Goal:** Convert an invoice into a reviewed accounting draft with explainable exceptions.
+**[Discuss your invoice process with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=invoice-processing_top)**
 
-The role design, worked example and evaluation below are educational proposals. The status and workflow boundary come from the linked VYR page; these role names are not a claim about its exact deployed agent roster.
+**Status: BUILT FOR YOU.** Build-to-order invoice review and Xero draft integration; payment authority stays with finance. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/invoice-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=invoice-processing_source).
 
-## Trigger and collaboration
+## What the workflow would help you achieve
 
-A supplier invoice arrives as an approved attachment or scan.
+Convert an invoice into a reviewed accounting draft with explainable exceptions.
+
+## How the work moves
 
 Extraction attaches each field to its source. Matching compares independent records. Exceptions travel with the conflicting values, so finance can resolve them before the ledger agent prepares an approved draft.
 
@@ -40,34 +42,28 @@ class H human
 class O outcome
 ```
 
-## What each agent passes forward
+This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
 
-| Role | Receives | Produces |
-|---|---|---|
-| Capture agent | Invoice + original source | Source-preserved document record |
-| Extraction agent | Document record | Supplier, amount, tax and line-item fields |
-| Matching agent | Extracted fields + PO + receipt | Variance and possible-duplicate report |
-| Exception agent | Mismatches + finance rules | Finance review packet |
-| Ledger agent | Finance-approved coding | Draft Xero entry and integration receipt |
+**Your team stays in control:** Finance resolves mismatches and retains accounting decisions and payment authority.
 
-**Human decision:** Finance resolves mismatches and retains accounting decisions and payment authority.
+**Scope boundary:** No bank access or automatic payment. Extraction confidence does not establish invoice validity.
 
-**Boundary:** No bank access or automatic payment. Extraction confidence does not establish invoice validity.
+## A conversation starter
 
-**Done means:** Reviewed ledger draft with source and exception history.
+Illustrative scenario: an invoice lists 12 units but the receipt records 10. Matching passes both figures to finance. The draft remains held until the discrepancy is resolved; approval creates an accounting draft, never a bank transfer.
 
-## Worked example
+This example is fictional; it is not a customer result or a promise of measured savings.
 
-Fictional run: an invoice lists 12 units but the receipt records 10. Matching passes both figures to finance. The draft remains held until the discrepancy is resolved; approval creates an accounting draft, never a bank transfer.
+## What VYR would scope with you
 
-This is a fictional scenario, not a customer result or a performance claim.
+Your invoice sources, purchase-order records, receipt evidence and accounting system.
 
-## How to evaluate it
+VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
 
-Test duplicate handling, arithmetic reconciliation, field-source traceability and exception routing.
+## Take the next step
 
-Keep a run ID, dated source references, permitted actions, current state, unresolved questions and decision owner with every handoff. Confirm external writes from the receiving system before declaring them complete. See the [build playbook](BUILD_PLAYBOOK.md) for implementation and model-role guidance.
+**[Discuss your invoice process with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=invoice-processing_bottom)**
 
-## Artwork
+Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Invoice%20Processing%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
 
-The [image prompt set](IMAGE_PROMPTS.md) includes a dedicated illustration for this workflow. Generation provenance and current asset availability are tracked in [ARTWORK.md](ARTWORK.md).
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=invoice-processing_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)

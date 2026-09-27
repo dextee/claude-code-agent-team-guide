@@ -1,32 +1,28 @@
-# Source register
+[← All workflows](README.md)
 
-Checked **27 September 2026**. Scope: all 14 workflow cards on [VYR Agent OS](https://vyrwork.com/agent-os) and their individual detail pages. These are VYR's public descriptions, not an independent production audit.
+# Source and service status
 
-| Use case | Primary page | Status | Preserved boundary |
-|---|---|---|---|
-| AI Receptionist | [spa-demo](https://vyrwork.com/agent-os/spa-demo) | DEMO | Working voice software using sample business data; no live booking connection. |
-| Content Operations | [seo-flow](https://vyrwork.com/agent-os/seo-flow) | LIVE | Live eleven-agent pipeline; new generation is currently paused behind an approval backlog. |
-| Lead Generation | [leadgen-flow](https://vyrwork.com/agent-os/leadgen-flow) | LIVE | Public-source prospect research, enrichment, deduplication and mailbox checks; outreach is excluded. |
-| Social Command Center | [social-media-flow](https://vyrwork.com/agent-os/social-media-flow) | LIVE | Live FeedHive telemetry is read-only; new writes use a separate approval-bound publisher. |
-| Clinic Front Desk | [clinic-flow](https://vyrwork.com/agent-os/clinic-flow) | BUILT FOR YOU | Build-to-order administrative workflow; no deployed clinic result is claimed. |
-| Invoice Processing | [invoice-flow](https://vyrwork.com/agent-os/invoice-flow) | BUILT FOR YOU | Build-to-order invoice review and Xero draft integration; payment authority stays with finance. |
-| Customer Support | [support-flow](https://vyrwork.com/agent-os/support-flow) | BUILT FOR YOU | Build-to-order support triage, grounded replies and controlled release. |
-| HR Operations | [hr-flow](https://vyrwork.com/agent-os/hr-flow) | BUILT FOR YOU | Build-to-order onboarding and policy routing; Talenox or Payboy integration is scoped and tested. |
-| Recruitment Screening | [recruitment-flow](https://vyrwork.com/agent-os/recruitment-flow) | BUILT FOR YOU | Build-to-order evidence triage; recruiters own progression, interview and rejection decisions. |
-| F&B Supplier Reorder | [fnb-flow](https://vyrwork.com/agent-os/fnb-flow) | BUILT FOR YOU | Build-to-order operations blueprint; this case focuses on the detailed supplier-reorder path. |
-| Tuition Trial Booking | [tuition-flow](https://vyrwork.com/agent-os/tuition-flow) | BUILT FOR YOU | Build-to-order enquiry and trial-class booking workflow; placement stays with centre staff. |
-| Lead Nurture | [nurture-flow](https://vyrwork.com/agent-os/nurture-flow) | BUILT FOR YOU | Build-to-order HubSpot follow-up workflow; there is no claimed live client deployment. |
-| Compliance Evidence | [compliance-flow](https://vyrwork.com/agent-os/compliance-flow) | BUILT FOR YOU | Build-to-order evidence preparation; it does not certify compliance or control effectiveness. |
-| Beauty & Wellness | [beauty-flow](https://vyrwork.com/agent-os/beauty-flow) | BUILT FOR YOU | Build-to-order salon booking and package-reference workflow; no running salon deployment is claimed. |
+This showcase follows [VYR Agent OS](https://vyrwork.com/agent-os). Public service descriptions were checked on **27 September 2026**. Status labels describe VYR's own published operations and designs; they are not an independent customer-deployment audit.
 
-## Interpretation rules
+| Workflow | Official source | Status |
+|---|---|---|
+| AI Receptionist | [View on VYR](https://vyrwork.com/agent-os/spa-demo) | DEMO |
+| Content Operations | [View on VYR](https://vyrwork.com/agent-os/seo-flow) | LIVE |
+| Lead Generation | [View on VYR](https://vyrwork.com/agent-os/leadgen-flow) | LIVE |
+| Social Command Center | [View on VYR](https://vyrwork.com/agent-os/social-media-flow) | LIVE |
+| Clinic Front Desk | [View on VYR](https://vyrwork.com/agent-os/clinic-flow) | BUILT FOR YOU |
+| Invoice Processing | [View on VYR](https://vyrwork.com/agent-os/invoice-flow) | BUILT FOR YOU |
+| Customer Support | [View on VYR](https://vyrwork.com/agent-os/support-flow) | BUILT FOR YOU |
+| HR Operations | [View on VYR](https://vyrwork.com/agent-os/hr-flow) | BUILT FOR YOU |
+| Recruitment Screening | [View on VYR](https://vyrwork.com/agent-os/recruitment-flow) | BUILT FOR YOU |
+| F&B Supplier Reorder | [View on VYR](https://vyrwork.com/agent-os/fnb-flow) | BUILT FOR YOU |
+| Tuition Trial Booking | [View on VYR](https://vyrwork.com/agent-os/tuition-flow) | BUILT FOR YOU |
+| Lead Nurture | [View on VYR](https://vyrwork.com/agent-os/nurture-flow) | BUILT FOR YOU |
+| Compliance Evidence | [View on VYR](https://vyrwork.com/agent-os/compliance-flow) | BUILT FOR YOU |
+| Beauty & Wellness | [View on VYR](https://vyrwork.com/agent-os/beauty-flow) | BUILT FOR YOU |
 
-The overview establishes the catalogue and maturity labels. Detail pages supply the specific worked path: for example, F&B's overview covers reservations, order intake and stock operations, while its detail page illustrates supplier reorder. This atlas chooses that detailed path for its concrete example. Similarly, the HR case focuses on onboarding, tuition on trial booking, and compliance on evidence preparation; broader areas on the overview remain scoping possibilities rather than additional deployed workflows.
+Content Operations is live with new generation currently paused behind its review backlog. Lead Generation prepares prospect records without sending outreach. Social Command Center is read-only; new publishing is a separate approval-controlled path. The receptionist uses sample data and has no live booking connection. The ten built-to-order designs are not claimed deployments.
 
-Educational additions are explicitly labelled: agent role names, decomposition into parallel work, handoff contracts, hypothetical examples, evaluation criteria and model recommendations. They should be validated against the actual implementation before use in a deployment claim.
+Diagrams simplify the work for a business discussion. They do not expose an exact runtime architecture. Scenarios are fictional and do not claim measured revenue, time savings or customer results. VYR's proposed shared-memory layer is build-to-order, not a connected feature of the three live workflows.
 
-The source pages distinguish preparation, approval, external execution and verification. This atlas preserves those distinctions. It does not turn a draft into a sent message, a scheduled post into a delivered post, an invoice draft into a payment, or a prepared evidence pack into certification.
-
-## Image model source
-
-[GPT Image 2.5 Sunburst — OpenAI Docs](https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst) confirms the model ID `gpt-image-2.5-sunburst`. [Image generation](https://developers.openai.com/api/docs/guides/image-generation) documents selecting it in the Image API. Model availability in documentation does not prove this session's built-in image tool is using it; actual generation provenance is recorded separately.
+[Current pricing](https://vyrwork.com/pricing) · [Delivery process](https://vyrwork.com/how-it-works) · [Contact VYR](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=source_register)

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discuss a workflow with VYR
+    url: "https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=github_issues"
+    about: "Project enquiries, scope, pricing and private business requirements."
+  - name: View VYR service packages
+    url: "https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=github_issues_pricing"
+    about: "Current workflow packages and ongoing care."

@@ -1,18 +1,20 @@
-[← All 14 workflows](README.md) · [Guide](../../README.md) · [VYR source](https://vyrwork.com/agent-os/beauty-flow)
+[← All workflows](README.md) · [VYR Agent OS](../../README.md)
 
-# 14. Beauty & Wellness
+# Beauty & Wellness
 
-**BUILT FOR YOU · Checked 27 September 2026**
+## When bookings require checking several calendars and package records
 
-Build-to-order salon booking and package-reference workflow; no running salon deployment is claimed.
+For salons and wellness businesses coordinating therapists, rooms and service duration. Bring availability and package references together before confirming the permitted booking.
 
-> **Goal:** Coordinate service, therapist, room and package information into a valid booking.
+**[Discuss your booking workflow with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=beauty-and-wellness_top)**
 
-The role design, worked example and evaluation below are educational proposals. The status and workflow boundary come from the linked VYR page; these role names are not a claim about its exact deployed agent roster.
+**Status: BUILT FOR YOU.** Build-to-order salon booking and package-reference workflow; no running salon deployment is claimed. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/beauty-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=beauty-and-wellness_source).
 
-## Trigger and collaboration
+## What the workflow would help you achieve
 
-A customer requests a service at a preferred time and location.
+Coordinate service, therapist, room and package information into a valid booking.
+
+## How the work moves
 
 Concierge requests roster and package checks in parallel. Booking joins their results without inventing entitlement. Staff resolve treatment, pricing or package exceptions before the permitted outcome is recorded.
 
@@ -41,34 +43,28 @@ class H human
 class O outcome
 ```
 
-## What each agent passes forward
+This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
 
-| Role | Receives | Produces |
-|---|---|---|
-| Concierge agent | Service + preferences | Booking constraints and minimum details |
-| Roster agent | Therapist + room + duration calendar | Feasible appointment slots |
-| Package agent | Permitted customer package record | Balance reference and applicable session rules |
-| Booking agent | Valid slot + package context + acceptance | Approved appointment proposal |
-| Follow-up agent | Confirmed booking + reminder policy | Permitted reminder or rebooking task |
+**Your team stays in control:** Staff own suitability, refunds, price changes, package disputes and exceptional bookings.
 
-**Human decision:** Staff own suitability, refunds, price changes, package disputes and exceptional bookings.
+**Scope boundary:** Package lookup is not refund authority. No treatment advice or unsupported availability.
 
-**Boundary:** Package lookup is not refund authority. No treatment advice or unsupported availability.
+## A conversation starter
 
-**Done means:** Valid appointment and permitted follow-up, or a staff-owned exception.
+Illustrative scenario: a requested therapist is free but the required room is occupied. Roster offers a later slot. If the package record is disputed, staff resolve it before any package-based booking promise.
 
-## Worked example
+This example is fictional; it is not a customer result or a promise of measured savings.
 
-Fictional run: a requested therapist is free but the required room is occupied. Roster offers a later slot. If the package record is disputed, staff resolve it before any package-based booking promise.
+## What VYR would scope with you
 
-This is a fictional scenario, not a customer result or a performance claim.
+Your service list, booking calendar, package register and staff exception rules.
 
-## How to evaluate it
+VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
 
-Evaluate multi-resource conflicts, package-reference accuracy, staff routing and confirmation consistency.
+## Take the next step
 
-Keep a run ID, dated source references, permitted actions, current state, unresolved questions and decision owner with every handoff. Confirm external writes from the receiving system before declaring them complete. See the [build playbook](BUILD_PLAYBOOK.md) for implementation and model-role guidance.
+**[Discuss your booking workflow with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=beauty-and-wellness_bottom)**
 
-## Artwork
+Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Beauty%20%26%20Wellness%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
 
-The [image prompt set](IMAGE_PROMPTS.md) includes a dedicated illustration for this workflow. Generation provenance and current asset availability are tracked in [ARTWORK.md](ARTWORK.md).
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=beauty-and-wellness_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)

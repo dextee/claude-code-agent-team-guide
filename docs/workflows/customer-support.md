@@ -1,18 +1,20 @@
-[← All 14 workflows](README.md) · [Guide](../../README.md) · [VYR source](https://vyrwork.com/agent-os/support-flow)
+[← All workflows](README.md) · [VYR Agent OS](../../README.md)
 
-# 07. Customer Support
+# Customer Support
 
-**BUILT FOR YOU · Checked 27 September 2026**
+## When enquiries bounce between inboxes and people
 
-Build-to-order support triage, grounded replies and controlled release.
+For teams answering repeated questions while managing complaints and policy exceptions. Prepare supported replies and route the difficult cases with their context attached.
 
-> **Goal:** Get each enquiry to a supported answer or the right person with full context.
+**[Discuss your support workflow with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=customer-support_top)**
 
-The role design, worked example and evaluation below are educational proposals. The status and workflow boundary come from the linked VYR page; these role names are not a claim about its exact deployed agent roster.
+**Status: BUILT FOR YOU.** Build-to-order support triage, grounded replies and controlled release. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/support-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=customer-support_source).
 
-## Trigger and collaboration
+## What the workflow would help you achieve
 
-An email, chat or WhatsApp enquiry reaches an approved inbox.
+Get each enquiry to a supported answer or the right person with full context.
+
+## How the work moves
 
 Triage chooses an owner while knowledge retrieves the relevant source. Reply joins those outputs. Missing evidence, complaints, refunds and policy exceptions go to staff before release.
 
@@ -40,34 +42,28 @@ class H human
 class O outcome
 ```
 
-## What each agent passes forward
+This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
 
-| Role | Receives | Produces |
-|---|---|---|
-| Intake agent | Message + permitted account context | Case record and prior-thread summary |
-| Triage agent | Case + priority rules | Intent, urgency and queue owner |
-| Knowledge agent | Question + approved documentation | Relevant evidence and missing-information flags |
-| Reply agent | Evidence + response policy | Grounded draft with cited source |
-| Case agent | Release decision or escalation | Sent-message receipt or staff-owned case |
+**Your team stays in control:** Support staff own sensitive cases and outbound actions requiring human release.
 
-**Human decision:** Support staff own sensitive cases and outbound actions requiring human release.
+**Scope boundary:** No invented policy answers, automatic compensation or bypass of identity checks.
 
-**Boundary:** No invented policy answers, automatic compensation or bypass of identity checks.
+## A conversation starter
 
-**Done means:** Evidence-backed reply or a useful escalation, with the case state updated.
+Illustrative scenario: a delivery question has a clear documented answer, so a draft is prepared. A refund request in the same thread changes the path: staff receive the policy source and customer context before any promise is made.
 
-## Worked example
+This example is fictional; it is not a customer result or a promise of measured savings.
 
-Fictional run: a delivery question has a clear documented answer, so a draft is prepared. A refund request in the same thread changes the path: staff receive the policy source and customer context before any promise is made.
+## What VYR would scope with you
 
-This is a fictional scenario, not a customer result or a performance claim.
+Your support channels, approved answers, ticketing system and escalation owner.
 
-## How to evaluate it
+VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
 
-Evaluate grounded-answer accuracy, escalation recall, identity checks and case-state consistency.
+## Take the next step
 
-Keep a run ID, dated source references, permitted actions, current state, unresolved questions and decision owner with every handoff. Confirm external writes from the receiving system before declaring them complete. See the [build playbook](BUILD_PLAYBOOK.md) for implementation and model-role guidance.
+**[Discuss your support workflow with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=customer-support_bottom)**
 
-## Artwork
+Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Customer%20Support%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
 
-The [image prompt set](IMAGE_PROMPTS.md) includes a dedicated illustration for this workflow. Generation provenance and current asset availability are tracked in [ARTWORK.md](ARTWORK.md).
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=customer-support_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)

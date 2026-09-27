@@ -1,18 +1,20 @@
-[← All 14 workflows](README.md) · [Guide](../../README.md) · [VYR source](https://vyrwork.com/agent-os/compliance-flow)
+[← All workflows](README.md) · [VYR Agent OS](../../README.md)
 
-# 13. Compliance Evidence
+# Compliance Evidence
 
-**BUILT FOR YOU · Checked 27 September 2026**
+## When preparing for review means chasing records across systems
 
-Build-to-order evidence preparation; it does not certify compliance or control effectiveness.
+For operations and compliance teams with a defined control register and evidence owners. Organise dated evidence and open gaps into a pack an accountable reviewer can assess.
 
-> **Goal:** Give a reviewer a traceable evidence pack and an honest gap register.
+**[Discuss evidence preparation with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=compliance-evidence_top)**
 
-The role design, worked example and evaluation below are educational proposals. The status and workflow boundary come from the linked VYR page; these role names are not a claim about its exact deployed agent roster.
+**Status: BUILT FOR YOU.** Build-to-order evidence preparation; it does not certify compliance or control effectiveness. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/compliance-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=compliance-evidence_source).
 
-## Trigger and collaboration
+## What the workflow would help you achieve
 
-A scheduled review opens for an approved control set.
+Give a reviewer a traceable evidence pack and an honest gap register.
+
+## How the work moves
 
 Collection preserves provenance. Mapping proposes links; gap review challenges sufficiency. A person assesses meaning before the pack agent assembles the reviewed record.
 
@@ -39,34 +41,28 @@ class H human
 class O outcome
 ```
 
-## What each agent passes forward
+This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
 
-| Role | Receives | Produces |
-|---|---|---|
-| Collection agent | In-scope events + documents | Evidence records with source and timestamp |
-| Mapping agent | Evidence + control register | Proposed evidence-to-control links |
-| Gap agent | Mappings + evidence requirements | Missing, stale or conflicting items |
-| Review coordinator | Evidence + gaps + owners | Accountable-review packet |
-| Pack agent | Recorded reviewer conclusions | Indexed evidence pack with unresolved gaps |
+**Your team stays in control:** The control owner, compliance lead or auditor decides sufficiency and conclusions.
 
-**Human decision:** The control owner, compliance lead or auditor decides sufficiency and conclusions.
+**Scope boundary:** No automated certification. An absent alert is not proof that a control works.
 
-**Boundary:** No automated certification. An absent alert is not proof that a control works.
+## A conversation starter
 
-**Done means:** Reviewed evidence index with owners, dates and visible open gaps.
+Illustrative scenario: a control has an old policy but no current execution record. Gap review marks the evidence incomplete. The reviewer assigns an owner and due date; the pack keeps the gap visible instead of displaying a pass badge.
 
-## Worked example
+This example is fictional; it is not a customer result or a promise of measured savings.
 
-Fictional run: a control has an old policy but no current execution record. Gap review marks the evidence incomplete. The reviewer assigns an owner and due date; the pack keeps the gap visible instead of displaying a pass badge.
+## What VYR would scope with you
 
-This is a fictional scenario, not a customer result or a performance claim.
+Your control set, in-scope records, evidence owners and review schedule.
 
-## How to evaluate it
+VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
 
-Test provenance completeness, stale-record detection, conflicting-evidence handling and reviewer attribution.
+## Take the next step
 
-Keep a run ID, dated source references, permitted actions, current state, unresolved questions and decision owner with every handoff. Confirm external writes from the receiving system before declaring them complete. See the [build playbook](BUILD_PLAYBOOK.md) for implementation and model-role guidance.
+**[Discuss evidence preparation with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=compliance-evidence_bottom)**
 
-## Artwork
+Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Compliance%20Evidence%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
 
-The [image prompt set](IMAGE_PROMPTS.md) includes a dedicated illustration for this workflow. Generation provenance and current asset availability are tracked in [ARTWORK.md](ARTWORK.md).
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=compliance-evidence_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)

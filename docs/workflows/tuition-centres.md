@@ -1,18 +1,20 @@
-[← All 14 workflows](README.md) · [Guide](../../README.md) · [VYR source](https://vyrwork.com/agent-os/tuition-flow)
+[← All workflows](README.md) · [VYR Agent OS](../../README.md)
 
-# 11. Tuition Trial Booking
+# Tuition Trial Booking
 
-**BUILT FOR YOU · Checked 27 September 2026**
+## When trial-class enquiries create repeated back-and-forth
 
-Build-to-order enquiry and trial-class booking workflow; placement stays with centre staff.
+For centres managing parent enquiries across levels, subjects, locations and class capacity. Offer valid trial options while staff retain placement and child-specific decisions.
 
-> **Goal:** Match a parent's enquiry to a genuinely available trial class.
+**[Discuss trial-class bookings with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=tuition-centres_top)**
 
-The role design, worked example and evaluation below are educational proposals. The status and workflow boundary come from the linked VYR page; these role names are not a claim about its exact deployed agent roster.
+**Status: BUILT FOR YOU.** Build-to-order enquiry and trial-class booking workflow; placement stays with centre staff. Status checked 27 September 2026 against [VYR's workflow page](https://vyrwork.com/agent-os/tuition-flow?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=tuition-centres_source).
 
-## Trigger and collaboration
+## What the workflow would help you achieve
 
-A parent specifies subject, level, location and preferred time.
+Match a parent's enquiry to a genuinely available trial class.
+
+## How the work moves
 
 Schedule supplies actual capacity to options. The parent chooses a valid slot. Placement or special-arrangement questions branch to staff; booking records only the accepted, permitted outcome.
 
@@ -40,34 +42,28 @@ class H human
 class O outcome
 ```
 
-## What each agent passes forward
+This is a simplified service illustration. It is not a screenshot or a claim about the exact deployed agent roster.
 
-| Role | Receives | Produces |
-|---|---|---|
-| Enquiry agent | Parent-supplied constraints | Structured trial request |
-| Schedule agent | Timetable + capacity + trial rules | Available classes meeting the constraints |
-| Options agent | Valid classes | Clear options for parent acceptance |
-| Staff handoff agent | Placement or child-specific question | Contextual centre-staff referral |
-| Booking agent | Accepted slot + applicable approval | Trial record and permitted follow-up |
+**Your team stays in control:** Centre staff own placement, assessments, special arrangements, fee exceptions and progress discussions.
 
-**Human decision:** Centre staff own placement, assessments, special arrangements, fee exceptions and progress discussions.
+**Scope boundary:** No assessment of a child's ability or invented class capacity.
 
-**Boundary:** No assessment of a child's ability or invented class capacity.
+## A conversation starter
 
-**Done means:** Accepted trial booking or a staff-owned placement question.
+Illustrative scenario: a parent wants a weekday maths trial near home. Two valid classes are offered. A request to move the child to a higher level pauses that decision for centre staff before the booking is finalised.
 
-## Worked example
+This example is fictional; it is not a customer result or a promise of measured savings.
 
-Fictional run: a parent wants a weekday maths trial near home. Two valid classes are offered. A request to move the child to a higher level pauses that decision for centre staff before the booking is finalised.
+## What VYR would scope with you
 
-This is a fictional scenario, not a customer result or a performance claim.
+Your class timetable, capacity source, enquiry channels and staff handoff rules.
 
-## How to evaluate it
+VYR reviews the current steps, the integration access available, the human decisions and an observable completion condition. Compatibility, timing and final deliverables are confirmed in the written scope.
 
-Test capacity accuracy, acceptance capture, child-specific escalation and follow-up permissions.
+## Take the next step
 
-Keep a run ID, dated source references, permitted actions, current state, unresolved questions and decision owner with every handoff. Confirm external writes from the receiving system before declaring them complete. See the [build playbook](BUILD_PLAYBOOK.md) for implementation and model-role guidance.
+**[Discuss trial-class bookings with VYR →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=tuition-centres_bottom)**
 
-## Artwork
+Prefer a short conversation? [WhatsApp VYR](https://wa.me/6598176520?text=Hi%20VYR%2C%20I%20found%20your%20Tuition%20Trial%20Booking%20workflow%20on%20GitHub.%20I%20would%20like%20to%20discuss%20automating%20a%20business%20process.). Tell us which process takes time, the systems involved and the exception your team most often has to resolve.
 
-The [image prompt set](IMAGE_PROMPTS.md) includes a dedicated illustration for this workflow. Generation provenance and current asset availability are tracked in [ARTWORK.md](ARTWORK.md).
+[Packages and pricing](https://vyrwork.com/pricing?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=tuition-centres_pricing) · [What happens after an enquiry](../../BUYERS_GUIDE.md) · [Explore all 14 workflows](README.md)
