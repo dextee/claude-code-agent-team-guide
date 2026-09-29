@@ -78,6 +78,12 @@ The 160-hour example is one full-time equivalent of task capacity, using **160 h
 
 **[Discuss the numbers for my business →](https://vyrwork.com/contact?utm_source=github&utm_medium=referral&utm_campaign=agent_os_workflows&utm_content=readme_roi)** · [Send VYR my task volume](https://wa.me/6598176520?text=Hi+VYR%2C+I+found+your+savings+page+through+GitHub.+My+business+is+__.+We+handle+about+__+tasks+per+month%2C+using+__.+I+would+like+to+discuss+whether+AI+could+save+us+time+or+money.)
 
+## Explore the practical agent guide
+
+Dexter also maintains the **[ChatGPT Agent Team Guide](https://github.com/dextee/chatgpt-agent-team-guide)**: 24 task recommendations, nine reusable agent definitions and 12 workflow recipes, with sources and reproducible checks. It explains how to choose and coordinate models. Its recommendations are starting points for evaluation, not evidence of customer results.
+
+[See Dexter’s maintained resources](https://github.com/dextee) · [Read the guide’s verification and limitations](https://github.com/dextee/chatgpt-agent-team-guide/blob/main/VALIDATION.md)
+
 ## Know who you are working with
 
 **Dexter Ng is CTO at VYR WORK.** His professional background spans technology leadership, cybersecurity, data protection and business software. His current LinkedIn positioning focuses on AI automation for Singapore businesses, with people retaining important approvals.
